@@ -1,0 +1,38 @@
+%This document has been prepared to help you approaching Latex as a formatting tool for your Travlendar+ deliverables. This document suggests you a possible style and format for your deliverables and contains information about basic formatting commands in Latex. A good guide to Latex is available here \href{https://tobi.oetiker.ch/lshort/lshort.pdf}{https://tobi.oetiker.ch/lshort/lshort.pdf}, but you can find many other good references on the web. 
+
+%Writing in Latex means writing textual files having a \texttt{.tex} extension and exploiting the Latex markup commands for formatting purposes. Your files then need to be compiled using the Latex compiler. Similarly to programming languages, you can find many editors that help you writing and compiling your latex code. Here \href{https://beebom.com/best-latex-editors/}{https://beebom.com/best-latex-editors/} you have a short oviewview of some of them. Feel free to choose the one you like. 
+
+%Include a subsection for each of the following items\footnote{By the way, what follows is the structure of an itemized list in Latex.}:
+
+
+%\begin{itemize}
+
+\subsection{Purpose}
+
+Safestreet is the name of an application aiming to offer principally the possibility to signal traffic or parking violation via the internet to public authorities.
+This document aims to outline the functioning of said app, providing a deep insight of the software and supporting the stakeholders.
+
+Safestreet offers, as a basic functionality, the possibility to fill in a form detailing one of the possible violations (either parking or traffic ones) to every single user. The application gives its users the possibility to compile a form complete with a brief description of the wrongdoing and several additional information. Said information consists of the position of the user at the time of the report (street name) and some pictures, to be attached to the form itself in some way (for example using the smartphone on which the app is installed). The form can then be either approved and investigated or discarded by the public authorities working at the interested area (in both cases the user is warned of the end result of their report). At the same moment Safestreet stores data received by those warnings and computes them to highlight areas in which a violation is most likely to occur, or to show which type of vehicle tends to be associated with different wrongdoings.
+
+In addition to what is written above, the data mined from the warnings can be crossed with that offered by the municipality. If a specific part of the city presents an alarming number of reports it may mean that the infrastructures provided to the population are inadequate or that part of the citizens (especially the weaker ones such as bikers or the elderly) is not preserved enough, thus some suggestions can be made to the authorities in order to avoid further inconveniences.
+
+\subsection{Goals}
+
+The goals set are expressed from the point of view of the S2B:
+
+\begin{itemize}
+
+
+\item [G1]{The application has to store all the information about violations sent to it, until a ticket is either dropped or accepted by an authority}
+
+\item [G2]{The system must accepts reports issued from every part of the covered area }
+
+\item [G3]{The system must allow authorities to access reports in every part of the covered area}
+
+\item [G4]{The application allows users and authorities to mine information on the system}
+
+\item [G5]{The application identifies unsafe areas crossing its informations with those offered by the municipality}
+
+\item [G6]{The application suggests possible solution to problems perceived after the crossing of information}
+
+\end{itemize}
