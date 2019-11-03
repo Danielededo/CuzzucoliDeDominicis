@@ -1,2 +1,10 @@
+*.aux
+*.dvi
+*.lof
 *.log
+*.lot
+*.out
 *.pdf
+*.toc
+main.synctex.gz
+

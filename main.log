@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.1)  3 NOV 2019 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.31)  3 NOV 2019 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,6 +348,12 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/outlines/outlines.sty
+Package: outlines 2012/1/23 1.1 Ch. Pecheur
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -566,9 +572,6 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count106
 \rotFPtop=\skip90
@@ -1058,7 +1061,17 @@ e.tex
 decorations.pathmorphing.code.tex))
 \highlight@previous=\dimen256
 \highlight@current=\dimen257
-) (./util/abbrev.tex)) (./main.aux)
+) (./util/abbrev.tex)) (./main.aux
+
+LaTeX Warning: Label `fig:UML' multiply defined.
+
+
+LaTeX Warning: Label `fig:UML' multiply defined.
+
+
+LaTeX Warning: Label `fig:UML' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -1076,8 +1089,7 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -1224,282 +1236,34 @@ page 6 undefined on input line 132.
 
 ) [6] (./Files/overview.tex [7
 
-] [8]) [9] (./Files/requirements.tex
-
-! LaTeX Error: Environment outline undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \begin{outline}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.51 \1
-         \textbf{G1} The application has to store all the information about ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.53 \2
-        \textbf{D5}: There is no failure in communication
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.55 \2
-        \textbf{D7}: Data storage is reliable
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.57 \2
-        \textbf{R1}: Users must login with their cellphone number to send a ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.62 \1
-         \textbf{G2} The system must accepts violations issued from every pa...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.64 \2
-        \textbf{D1}: The smartphone of the user can provide accurate location
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.66 \2
-        \textbf{D3}: Internet connection is reliable
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 \2
-        \textbf{D4}: The CNN is always on and ready to communicate
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.70 \2
-        \textbf{D5}: There is no failure in communication
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.72 \2
-        \textbf{R2}: Users must be connected to the internet with their GPS ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.77 \1
-         \textbf{G3} The system must allow authorities to access violations ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.79 \2
-        \textbf{D3}: Internet connection is reliable
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.81 \2
-        \textbf{D5}: There is no failure in communication
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.83 \2
-        \textbf{D6}: GM is always on and ready to communicate
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.85 \2
-        \textbf{D7}: Data storage is reliable
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.89 \1
-         \textbf{G4} The application allows users and authorities to mine in...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.91 \2
-        \textbf{D3}: Internet connection is reliable
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.93 \2
-        \textbf{D5}: There is no failure in communication
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.95 \2
-        \textbf{D7}: Data storage is reliable
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.99 \1
-         \textbf{G5} The application identifies unsafe areas crossing its in...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.101 \2
-         \textbf{D7}: Data storage is reliable
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.103 \2
-         \textbf{D8}: Data offered by municipality is correct
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.105 \2
-         \textbf{D9}: Data offered by municipality is up-to-date
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.110 \1
-          \textbf{G6} The application suggests possible solution to problems...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.112 \2
-         \textbf{D2}: The data provided by the user is correct
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[10
-
 ]
-! Undefined control sequence.
-l.114 \2
-         \textbf{D8}: Data offered by municipality is correct
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<Images/Diagrams/uml.png, id=214, 1230.5975pt x 870.25125pt>
+File: Images/Diagrams/uml.png Graphic file (type png)
+<use Images/Diagrams/uml.png>
+Package pdftex.def Info: Images/Diagrams/uml.png  used on input line 26.
+(pdftex.def)             Requested size: 455.24411pt x 321.9348pt.
+<Images/Diagrams/State-1.png, id=216, 899.36pt x 452.69125pt>
+File: Images/Diagrams/State-1.png Graphic file (type png)
+<use Images/Diagrams/State-1.png>
+Package pdftex.def Info: Images/Diagrams/State-1.png  used on input line 32.
+(pdftex.def)             Requested size: 455.24411pt x 229.1495pt.
+<Images/Diagrams/State-2.png, id=217, 999.735pt x 239.89626pt>
+File: Images/Diagrams/State-2.png Graphic file (type png)
+<use Images/Diagrams/State-2.png>
+Package pdftex.def Info: Images/Diagrams/State-2.png  used on input line 38.
+(pdftex.def)             Requested size: 455.24411pt x 109.24081pt.
+<Images/Diagrams/State-3.png, id=218, 885.3075pt x 240.9pt>
+File: Images/Diagrams/State-3.png Graphic file (type png)
+<use Images/Diagrams/State-3.png>
+Package pdftex.def Info: Images/Diagrams/State-3.png  used on input line 44.
+(pdftex.def)             Requested size: 455.24411pt x 123.87924pt.
+ [8 <./Images/Diagrams/uml.png>] [9 <./Images/Diagrams/State-1.png> <./Images/D
+iagrams/State-2.png> <./Images/Diagrams/State-3.png>] [10]) [11] (./Files/requi
+rements.tex [12
 
-! Undefined control sequence.
-l.116 \2
-         \textbf{D9}: Data offered by municipality is up-to-date
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+]) [13] [14
 
-
-! LaTeX Error: \begin{document} ended by \end{outline}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 \end{outline}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [11] [12
-
-] [13
+] [15
 
 ]
 No file main.bbl.
@@ -1514,25 +1278,28 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 20152 strings out of 494880
- 369929 string characters out of 6179601
- 437928 words of memory out of 5000000
- 22998 multiletter control sequences out of 15000+600000
+ 20218 strings out of 494880
+ 371063 string characters out of 6179600
+ 438386 words of memory out of 5000000
+ 23049 multiletter control sequences out of 15000+600000
  52733 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 59i,21n,65p,1011b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,21n,65p,1011b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (13 pages, 97826 bytes).
+Output written on main.pdf (15 pages, 242294 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 302 words of extra memory for PDF output out of 10000 (max. 10000000)
 
