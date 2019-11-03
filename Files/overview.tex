@@ -20,33 +20,31 @@ In this paragraph we shall deepen the shared phenomena mentioned in the previous
 
 Following are the class and state diagrams: \newpage
 
-
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{Images/Diagrams/uml.png}
 \caption{\label{fig:UML}Class Diagram}
+\medskip
+\small
+User and Authority are set as different objects as they undergo different kinds of authentication and have different levels of priviledges
 \end{figure}
 
-\begin{figure}
+\begin{figure} [H]
 \centering
 \includegraphics[width=\textwidth]{Images/Diagrams/State-1.png}
-\caption{\label{fig:UML}Class Diagram}
+\caption{\label{fig:State-1}Statechart diagram for the basic function (user)}
 \end{figure}
 
-\begin{figure}
+\begin{figure} [H]
 \centering
 \includegraphics[width=\textwidth]{Images/Diagrams/State-2.png}
-\caption{\label{fig:UML}Class Diagram}
+\caption{\label{fig:State-2}Statechart diagram for the basic function (authority)}
 \end{figure}
 
-\begin{figure}
-\centering
+\begin{figure} [H]
 \includegraphics[width=\textwidth]{Images/Diagrams/State-3.png}
-\caption{\label{fig:UML}Class Diagram}
+\caption{\label{fig:State-3}Statechart diagram for the advanced function}
 \end{figure}
-
-\newpage
-
 
 \subsection{Product Functions}
 
@@ -94,8 +92,6 @@ Authorities can access all the pending violations in their city. They have the s
 \subsubsection*{Basic Service}
 
 \begin{itemize}
-
-%\item \textbf{D1}: Users must be equipped with smartphones provided with camera, internet connection and GPS tracker
 
 \item \textbf{D1}: The smartphone of the user can provide accurate location
 
