@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.1)  2 NOV 2019 00:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.1)  3 NOV 2019 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,7 +1167,7 @@ LaTeX Info: Redefining \nameref on input line 4.
 \openout4 = `main.out'.
 
  ABD: EveryShipout initializing macros
-<Images/PolimiLogo.jpg, id=83, 853.1875pt x 451.6875pt>
+<Images/PolimiLogo.jpg, id=139, 853.1875pt x 451.6875pt>
 File: Images/PolimiLogo.jpg Graphic file (type jpg)
 <use Images/PolimiLogo.jpg>
 Package pdftex.def Info: Images/PolimiLogo.jpg  used on input line 9.
@@ -1222,13 +1222,284 @@ LaTeX Warning: Citation `assignment.pdf' on page 6 undefined on input line 130.
 LaTeX Warning: Citation `http://alloy.lcs.mit.edu/alloy/documentation.html' on 
 page 6 undefined on input line 132.
 
-) [6] (./Files/overview.tex) [7
+) [6] (./Files/overview.tex [7
 
-] [8
+] [8]) [9] (./Files/requirements.tex
 
-] [9
+! LaTeX Error: Environment outline undefined.
 
-] [10
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \begin{outline}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.51 \1
+         \textbf{G1} The application has to store all the information about ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 \2
+        \textbf{D5}: There is no failure in communication
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.55 \2
+        \textbf{D7}: Data storage is reliable
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 \2
+        \textbf{R1}: Users must login with their cellphone number to send a ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62 \1
+         \textbf{G2} The system must accepts violations issued from every pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64 \2
+        \textbf{D1}: The smartphone of the user can provide accurate location
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.66 \2
+        \textbf{D3}: Internet connection is reliable
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.68 \2
+        \textbf{D4}: The CNN is always on and ready to communicate
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.70 \2
+        \textbf{D5}: There is no failure in communication
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.72 \2
+        \textbf{R2}: Users must be connected to the internet with their GPS ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.77 \1
+         \textbf{G3} The system must allow authorities to access violations ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.79 \2
+        \textbf{D3}: Internet connection is reliable
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.81 \2
+        \textbf{D5}: There is no failure in communication
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.83 \2
+        \textbf{D6}: GM is always on and ready to communicate
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.85 \2
+        \textbf{D7}: Data storage is reliable
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.89 \1
+         \textbf{G4} The application allows users and authorities to mine in...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 \2
+        \textbf{D3}: Internet connection is reliable
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.93 \2
+        \textbf{D5}: There is no failure in communication
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.95 \2
+        \textbf{D7}: Data storage is reliable
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.99 \1
+         \textbf{G5} The application identifies unsafe areas crossing its in...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.101 \2
+         \textbf{D7}: Data storage is reliable
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.103 \2
+         \textbf{D8}: Data offered by municipality is correct
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.105 \2
+         \textbf{D9}: Data offered by municipality is up-to-date
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.110 \1
+          \textbf{G6} The application suggests possible solution to problems...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.112 \2
+         \textbf{D2}: The data provided by the user is correct
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[10
+
+]
+! Undefined control sequence.
+l.114 \2
+         \textbf{D8}: Data offered by municipality is correct
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.116 \2
+         \textbf{D9}: Data offered by municipality is up-to-date
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{outline}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \end{outline}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [11] [12
+
+] [13
 
 ]
 No file main.bbl.
@@ -1238,21 +1509,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D9E5CE4C61B228A503F32D82EAA43610;1211.
+(rerunfilecheck)             Checksum: 8BF0CE111C3E8F568548E5E5A420FA07;2287.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 20110 strings out of 494880
- 369262 string characters out of 6179601
- 436919 words of memory out of 5000000
- 22982 multiletter control sequences out of 15000+600000
+ 20152 strings out of 494880
+ 369929 string characters out of 6179601
+ 437928 words of memory out of 5000000
+ 22998 multiletter control sequences out of 15000+600000
  52733 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  59i,21n,65p,1011b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1261,10 +1529,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (10 pages, 90440 bytes).
+Output written on main.pdf (13 pages, 97826 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
 
