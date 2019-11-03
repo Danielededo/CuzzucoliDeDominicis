@@ -1,1 +1,118 @@
-Organize this section according to the rules defined in the project description. 
+\subsection{Specific Requirements}
+
+\subsubsection{External Interface Requirements}
+
+\subsubsection{Hardware Interfaces}
+
+The application is available to those who have a smartphone with internet connection (to communicate with SafeStreet), a camera (to take photos of the violations) and a GPS tracker (to provide the position).
+The web application for authorities can be accessed by any computer with a web browser.
+
+\subsubsection{Software Interfaces}
+
+\begin{itemize}
+
+\item Browser
+\item Web Server Application
+\item Operating System: iOS, Android
+\item DBMS
+
+\end{itemize} 
+
+\subsubsection{Communication Interfaces}
+
+This application requires an Internet connection for the purpose of transmitting the report information, HTTPS protocol is used to transfer the data securely between the user and the DBMS.
+
+\subsection{Functional Requirements}
+
+
+%\2 \textbf{D1}: The smartphone of the user can provide accurate location
+
+%\2 \textbf{D2}: The data provided by the user is correct
+
+%\2 \textbf{D3}: Internet connection is reliable
+
+%\2 \textbf{D4}: The CNN is always on and ready to communicate
+
+%\2 \textbf{D5}: There is no failure in communication
+
+%\2 \textbf{D6}: GM is always on and ready to communicate
+
+%\2 \textbf{D7}: Data storage is reliable
+
+%\2 \textbf{D8}: The smartphone of the user can provide accurate location
+
+%\2 \textbf{D9}: Data offered by municipality is correct
+
+%\2 \textbf{D10}: Data offered by municipality is up-to-date
+
+
+\begin{outline}
+
+\1  \textbf{G1} The application has to store all the information about violations sent to it, until a ticket is either dropped or accepted by an authority
+
+\2 \textbf{D5}: There is no failure in communication
+
+\2 \textbf{D7}: Data storage is reliable
+
+\2 \textbf{R1}: Users must login with their cellphone number to send a violation
+
+
+%____________________________________________________________________________
+
+\1  \textbf{G2} The system must accepts violations issued from every part of the covered area
+
+\2 \textbf{D1}: The smartphone of the user can provide accurate location
+
+\2 \textbf{D3}: Internet connection is reliable
+
+\2 \textbf{D4}: The CNN is always on and ready to communicate
+
+\2 \textbf{D5}: There is no failure in communication
+
+\2 \textbf{R2}: Users must be connected to the internet with their GPS enabled to use the service
+
+%____________________________________________________________________________
+
+ 
+\1  \textbf{G3} The system must allow authorities to access violations in every part of the covered area
+
+\2 \textbf{D3}: Internet connection is reliable
+
+\2 \textbf{D5}: There is no failure in communication
+
+\2 \textbf{D6}: GM is always on and ready to communicate
+
+\2 \textbf{D7}: Data storage is reliable
+
+%____________________________________________________________________________
+
+\1  \textbf{G4} The application allows users and authorities to mine information on the system
+
+\2 \textbf{D3}: Internet connection is reliable
+
+\2 \textbf{D5}: There is no failure in communication
+
+\2 \textbf{D7}: Data storage is reliable
+
+%____________________________________________________________________________
+
+\1  \textbf{G5} The application identifies unsafe areas crossing its informations with those offered by the municipality
+
+\2 \textbf{D7}: Data storage is reliable
+
+\2 \textbf{D8}: Data offered by municipality is correct
+
+\2 \textbf{D9}: Data offered by municipality is up-to-date
+
+
+%____________________________________________________________________________
+
+\1  \textbf{G6} The application suggests possible solution to problems perceived after the crossing of information
+
+\2 \textbf{D2}: The data provided by the user is correct
+
+\2 \textbf{D8}: Data offered by municipality is correct
+
+\2 \textbf{D9}: Data offered by municipality is up-to-date
+
+\end{outline}
