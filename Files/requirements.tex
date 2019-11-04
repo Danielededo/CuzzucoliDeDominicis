@@ -18,7 +18,7 @@ In this case it is shown how the report of violations is handled. The users ente
 \end{figure}
 
 
-\begin{figure}[t]
+\begin{figure}[H]
 \includegraphics[scale=0.5]{Images/Templates/User/us_4.PNG}
 \caption{\label{fig:Mockup-3}List Violations and List Accidents sections}
 Upon entering on the apposite areas, the users are shown a list of streets with information about violations. If a precise one is selected, the types are linked to their quantities.
@@ -26,8 +26,7 @@ Upon entering on the apposite areas, the users are shown a list of streets with 
 
 
 \subsubsection{Authority Interfaces}
-\begin{figure}
-[H]
+\begin{figure} [H]
 \includegraphics[scale=0.48]{Images/Templates/Authority/auth_0.PNG}
 \caption{\label{fig:Mockup-4}Menu and List Accidents section}
 \end{figure}
@@ -35,32 +34,28 @@ Upon entering on the apposite areas, the users are shown a list of streets with 
 Authorities can select unsafe streets from the section regarding accidents. If said street is listed as \textit{unsafe}, the type of most common violations is shown. A suggestion is made accordingly, as it can be argued that if drivers tend to reiterate a specific mistake, it is possible that this is the cause of the accidents.
 
 
-\begin{figure}
-[H]
+\begin{figure} [H]
 \includegraphics[scale=0.49]{Images/Templates/Authority/auth_1.PNG}
 \caption{\label{fig:Mockup-5}Check Report section}
 \end{figure}
 
 Authorities can discard specific violations or take them in charge. If the latter happens, they are guided to the site of the violation exploiting GM' API.
 
-\begin{figure}
-[H]
+\begin{figure} [H]
 \includegraphics[scale=0.48]{Images/Templates/Authority/auth_2.PNG}
 \caption{\label{fig:Mockup-6}List Violations section}
 \end{figure}
 
 Authorities can see the list of the offenders, street by street, for any kind of violation.
 
-\begin{figure}
-[H]
+\begin{figure} [H]
 \includegraphics[scale=0.5]{Images/Templates/Authority/auth_3.PNG}
 \caption{\label{fig:Mockup-7}Web Login interface}
 \end{figure}
 
 Safestreets is provided with a web interface for those authorities who are assigned to administrative section.
 
-\begin{figure}
-[H]
+\begin{figure} [H]
 \includegraphics[scale=0.5255]{Images/Templates/Authority/auth_4.PNG}
 \caption{\label{fig:Mockup-8}Web interface}
 \end{figure}
@@ -160,16 +155,13 @@ This application requires an Internet connection for the purpose of transmitting
 \end{outline}
 
 \subsubsection{Use Case Diagrams}
-\begin{figure}
-[H]
-\includegraphics[width=\textwidth]{Images/Diagrams/UseCase1.png}
+\begin{figure}[H]
+\includegraphics[scale=0.41]{Images/Diagrams/UseCase1.png}
 \caption{\label{fig:UseCase1}SafeStreets basic service use case diagram}
-
 \end{figure}
 
-\begin{figure}
-[H]
-\includegraphics[width=\textwidth]{Images/Diagrams/UseCase2.png}
+\begin{figure}[H]
+\includegraphics[scale=0.34]{Images/Diagrams/UseCase2.png}
 \caption{\label{fig:UseCase2}SafeStreets advanced functionality use case diagram}
 \end{figure}
 
@@ -178,13 +170,45 @@ This application requires an Internet connection for the purpose of transmitting
 \subsubsection{Sequence Diagram}
 \begin{figure}
 [H]
-\includegraphics[width=\textwidth]{Images/Diagrams/Sequence1.png}
+\includegraphics[scale=0.5]{Images/Diagrams/Sequence1.png}
 \caption{\label{fig:Sequence1}Lifetime of a report}
 \end{figure}
 
 \begin{figure}
 [H]
-\centering
-\includegraphics[scale=1]{Images/Diagrams/Sequence2.png}
+\includegraphics[scale=0.5]{Images/Diagrams/Sequence2.png}
 \caption{\label{fig:Sequence2}Examination of accidents}
 \end{figure}
+
+\subsection{Performance Requirements}
+The system must be able to handle large quantities of data. On the other hand the importance of speed is limited as violations and their report does not have to be handled at the same moment they are put into the system.
+
+\subsection{Design Constraints}
+
+\subsubsection{Hardware Limitation}
+
+The application does not have strict hardware limitation. Nevertheless it requires:
+
+\begin{itemize}
+
+\item 2G/3G/4G connection
+
+\item Working camera
+
+\item GPS
+
+\end{itemize}
+
+\subsection{Software System Attributes}
+
+\subsubsection{Reliability}
+
+The system should guarantee 99\% of reliability: its component must have a failure rate that guarantees this goal.
+
+\subsubsection{Availability}
+
+The service should ideally be available 24/7.
+
+\subsubsection{Security}
+
+The system uses HTTPS protocol for communication. Plate numbers are stored and encrypted.
