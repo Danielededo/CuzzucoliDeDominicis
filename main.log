@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.1)  4 NOV 2019 12:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.1)  4 NOV 2019 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,7 +1170,7 @@ LaTeX Info: Redefining \nameref on input line 4.
 \openout4 = `main.out'.
 
  ABD: EveryShipout initializing macros
-<Images/PolimiLogo.jpg, id=143, 853.1875pt x 451.6875pt>
+<Images/PolimiLogo.jpg, id=159, 853.1875pt x 451.6875pt>
 File: Images/PolimiLogo.jpg Graphic file (type jpg)
 <use Images/PolimiLogo.jpg>
 Package pdftex.def Info: Images/PolimiLogo.jpg  used on input line 9.
@@ -1218,7 +1218,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
  [4] (./Files/introduction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-<Images/Templates/icon-safestreets.PNG, id=212, 428.802pt x 94.55325pt>
+<Images/Templates/icon-safestreets.PNG, id=232, 428.802pt x 94.55325pt>
 File: Images/Templates/icon-safestreets.PNG Graphic file (type png)
 <use Images/Templates/icon-safestreets.PNG>
 Package pdftex.def Info: Images/Templates/icon-safestreets.PNG  used on input l
@@ -1238,17 +1238,17 @@ page 7 undefined on input line 137.
 ) [7] (./Files/overview.tex [8
 
 ]
-<Images/Diagrams/uml.png, id=235, 1230.5975pt x 870.25125pt>
+<Images/Diagrams/uml.png, id=255, 1230.5975pt x 870.25125pt>
 File: Images/Diagrams/uml.png Graphic file (type png)
 <use Images/Diagrams/uml.png>
 Package pdftex.def Info: Images/Diagrams/uml.png  used on input line 25.
 (pdftex.def)             Requested size: 455.24411pt x 321.9348pt.
-<Images/Diagrams/State-1.png, id=236, 899.36pt x 452.69125pt>
+<Images/Diagrams/State-1.png, id=256, 899.36pt x 452.69125pt>
 File: Images/Diagrams/State-1.png Graphic file (type png)
 <use Images/Diagrams/State-1.png>
 Package pdftex.def Info: Images/Diagrams/State-1.png  used on input line 34.
 (pdftex.def)             Requested size: 455.24411pt x 229.1495pt.
-<Images/Diagrams/State-2.png, id=237, 999.735pt x 239.89626pt>
+<Images/Diagrams/State-2.png, id=257, 999.735pt x 239.89626pt>
 File: Images/Diagrams/State-2.png Graphic file (type png)
 <use Images/Diagrams/State-2.png>
 Package pdftex.def Info: Images/Diagrams/State-2.png  used on input line 40.
@@ -1257,18 +1257,130 @@ Package pdftex.def Info: Images/Diagrams/State-2.png  used on input line 40.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./Images/Diagrams/uml.png> <./Images/Diagrams/State-1.png>]
-<Images/Diagrams/State-3.png, id=244, 885.3075pt x 240.9pt>
+<Images/Diagrams/State-3.png, id=264, 885.3075pt x 240.9pt>
 File: Images/Diagrams/State-3.png Graphic file (type png)
 <use Images/Diagrams/State-3.png>
 Package pdftex.def Info: Images/Diagrams/State-3.png  used on input line 45.
 (pdftex.def)             Requested size: 455.24411pt x 123.87924pt.
  [10 <./Images/Diagrams/State-2.png> <./Images/Diagrams/State-3.png>] [11]) [12
 ]
-(./Files/requirements.tex [13
+(./Files/requirements.tex
+<Images/Templates/User/us_0.png, id=285, 284.93336pt x 491.08057pt>
+File: Images/Templates/User/us_0.png Graphic file (type png)
+<use Images/Templates/User/us_0.png>
+Package pdftex.def Info: Images/Templates/User/us_0.png  used on input line 6.
+(pdftex.def)             Requested size: 148.1662pt x 255.36336pt.
+<Images/Templates/User/us_1.png, id=286, 288.48763pt x 479.23303pt>
+File: Images/Templates/User/us_1.png Graphic file (type png)
+<use Images/Templates/User/us_1.png>
+Package pdftex.def Info: Images/Templates/User/us_1.png  used on input line 7.
+(pdftex.def)             Requested size: 144.24345pt x 239.61592pt.
+<Images/Templates/User/us_2.png, id=287, 279.0096pt x 511.81377pt>
+File: Images/Templates/User/us_2.png Graphic file (type png)
+<use Images/Templates/User/us_2.png>
+Package pdftex.def Info: Images/Templates/User/us_2.png  used on input line 8.
+(pdftex.def)             Requested size: 139.50446pt x 255.90625pt.
+<Images/Templates/User/us_3.PNG, id=288, 940.11224pt x 545.6385pt>
+File: Images/Templates/User/us_3.PNG Graphic file (type png)
+<use Images/Templates/User/us_3.PNG>
+Package pdftex.def Info: Images/Templates/User/us_3.PNG  used on input line 13.
 
-]) [14] [15
+(pdftex.def)             Requested size: 441.85281pt x 256.45012pt.
+<Images/Templates/User/us_4.PNG, id=289, 885.90974pt x 517.33275pt>
+File: Images/Templates/User/us_4.PNG Graphic file (type png)
+<use Images/Templates/User/us_4.PNG>
+Package pdftex.def Info: Images/Templates/User/us_4.PNG  used on input line 18.
 
-] [16
+(pdftex.def)             Requested size: 442.9538pt x 258.66574pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
+
+ <./Images/Templates/User/us_0.png (PNG copy)> <./Images/Templates/User/us_1.pn
+g (PNG copy)> <./Images/Templates/User/us_2.png (PNG copy)> <./Images/Templates
+/User/us_3.PNG>]
+<Images/Templates/Authority/auth_0.PNG, id=299, 923.8515pt x 542.62724pt>
+File: Images/Templates/Authority/auth_0.PNG Graphic file (type png)
+<use Images/Templates/Authority/auth_0.PNG>
+Package pdftex.def Info: Images/Templates/Authority/auth_0.PNG  used on input l
+ine 24.
+(pdftex.def)             Requested size: 443.44368pt x 260.45811pt.
+<Images/Templates/Authority/auth_1.PNG, id=300, 905.18175pt x 525.162pt>
+File: Images/Templates/Authority/auth_1.PNG Graphic file (type png)
+<use Images/Templates/Authority/auth_1.PNG>
+Package pdftex.def Info: Images/Templates/Authority/auth_1.PNG  used on input l
+ine 29.
+(pdftex.def)             Requested size: 443.54294pt x 257.33163pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./Images/Templates/User/us_4.PNG> <./Images/Templates/Authority/auth_0.PN
+G>]
+<Images/Templates/Authority/auth_2.PNG, id=309, 920.238pt x 533.5935pt>
+File: Images/Templates/Authority/auth_2.PNG Graphic file (type png)
+<use Images/Templates/Authority/auth_2.PNG>
+Package pdftex.def Info: Images/Templates/Authority/auth_2.PNG  used on input l
+ine 34.
+(pdftex.def)             Requested size: 441.70923pt x 256.12196pt.
+<Images/Templates/Authority/auth_3.PNG, id=310, 908.193pt x 508.299pt>
+File: Images/Templates/Authority/auth_3.PNG Graphic file (type png)
+<use Images/Templates/Authority/auth_3.PNG>
+Package pdftex.def Info: Images/Templates/Authority/auth_3.PNG  used on input l
+ine 39.
+(pdftex.def)             Requested size: 454.09538pt x 254.14886pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./Images/Templates/Authority/auth_1.PNG> <./Images/Templates/Authority/au
+th_2.PNG>]
+<Images/Templates/Authority/auth_4.PNG, id=319, 863.6265pt x 483.60675pt>
+File: Images/Templates/Authority/auth_4.PNG Graphic file (type png)
+<use Images/Templates/Authority/auth_4.PNG>
+Package pdftex.def Info: Images/Templates/Authority/auth_4.PNG  used on input l
+ine 44.
+(pdftex.def)             Requested size: 453.8324pt x 254.13347pt.
+
+[16 <./Images/Templates/Authority/auth_3.PNG> <./Images/Templates/Authority/aut
+h_4.PNG>] [17]
+<Images/Diagrams/UseCase1.png, id=332, 846.16125pt x 689.57625pt>
+File: Images/Diagrams/UseCase1.png Graphic file (type png)
+<use Images/Diagrams/UseCase1.png>
+Package pdftex.def Info: Images/Diagrams/UseCase1.png  used on input line 143.
+(pdftex.def)             Requested size: 455.24411pt x 370.99776pt.
+<Images/Diagrams/UseCase2.png, id=333, 1046.91125pt x 837.1275pt>
+File: Images/Diagrams/UseCase2.png Graphic file (type png)
+<use Images/Diagrams/UseCase2.png>
+Package pdftex.def Info: Images/Diagrams/UseCase2.png  used on input line 148.
+(pdftex.def)             Requested size: 455.24411pt x 364.01979pt.
+
+Underfull \vbox (badness 1565) has occurred while \output is active []
+
+ [18 <./Images/Diagrams/UseCase1.png>]
+<Images/Diagrams/Sequence1.png, id=340, 515.9275pt x 452.69125pt>
+File: Images/Diagrams/Sequence1.png Graphic file (type png)
+<use Images/Diagrams/Sequence1.png>
+Package pdftex.def Info: Images/Diagrams/Sequence1.png  used on input line 156.
+
+(pdftex.def)             Requested size: 455.24411pt x 399.4609pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./Images/Diagrams/UseCase2.png>]
+<Images/Diagrams/Sequence2.png, id=348, 310.15875pt x 402.50375pt>
+File: Images/Diagrams/Sequence2.png Graphic file (type png)
+<use Images/Diagrams/Sequence2.png>
+Package pdftex.def Info: Images/Diagrams/Sequence2.png  used on input line 162.
+
+(pdftex.def)             Requested size: 310.15799pt x 402.50276pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./Images/Diagrams/Sequence1.png>] [21 <./Images/Diagrams/Sequence2.png>] 
+[22
+
+]
+[23
 
 ]
 No file main.bbl.
@@ -1278,36 +1390,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 10F5E7EA1C23BF25830240AEBBBB7375;2339.
+(rerunfilecheck)             Checksum: 721BC65AC64BC5B4B953360583448CBB;2644.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 20237 strings out of 494880
- 371405 string characters out of 6179601
- 438578 words of memory out of 5000000
- 23058 multiletter control sequences out of 15000+600000
+ 20335 strings out of 494880
+ 374053 string characters out of 6179601
+ 439569 words of memory out of 5000000
+ 23118 multiletter control sequences out of 15000+600000
  52733 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  59i,21n,65p,1011b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.6} has been referenced but does no
-t exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on main.pdf (16 pages, 298400 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on main.pdf (23 pages, 1868780 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 417 words of extra memory for PDF output out of 10000 (max. 10000000)
 
