@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.31)  3 NOV 2019 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.1)  4 NOV 2019 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1218,31 +1218,37 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
  [4] (./Files/introduction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+<Images/Templates/icon-safestreets.PNG, id=212, 428.802pt x 94.55325pt>
+File: Images/Templates/icon-safestreets.PNG Graphic file (type png)
+<use Images/Templates/icon-safestreets.PNG>
+Package pdftex.def Info: Images/Templates/icon-safestreets.PNG  used on input l
+ine 24.
+(pdftex.def)             Requested size: 455.24411pt x 100.38754pt.
  [5
 
-] [6]
+ <./Images/Templates/icon-safestreets.PNG>] [6]
 
-LaTeX Warning: Citation `assignment.pdf' on page 7 undefined on input line 130.
+LaTeX Warning: Citation `assignment.pdf' on page 7 undefined on input line 135.
 
 
 
 LaTeX Warning: Citation `http://alloy.lcs.mit.edu/alloy/documentation.html' on 
-page 7 undefined on input line 132.
+page 7 undefined on input line 137.
 
 ) [7] (./Files/overview.tex [8
 
 ]
-<Images/Diagrams/uml.png, id=229, 1230.5975pt x 870.25125pt>
+<Images/Diagrams/uml.png, id=235, 1230.5975pt x 870.25125pt>
 File: Images/Diagrams/uml.png Graphic file (type png)
 <use Images/Diagrams/uml.png>
 Package pdftex.def Info: Images/Diagrams/uml.png  used on input line 25.
 (pdftex.def)             Requested size: 455.24411pt x 321.9348pt.
-<Images/Diagrams/State-1.png, id=231, 899.36pt x 452.69125pt>
+<Images/Diagrams/State-1.png, id=236, 899.36pt x 452.69125pt>
 File: Images/Diagrams/State-1.png Graphic file (type png)
 <use Images/Diagrams/State-1.png>
 Package pdftex.def Info: Images/Diagrams/State-1.png  used on input line 34.
 (pdftex.def)             Requested size: 455.24411pt x 229.1495pt.
-<Images/Diagrams/State-2.png, id=232, 999.735pt x 239.89626pt>
+<Images/Diagrams/State-2.png, id=237, 999.735pt x 239.89626pt>
 File: Images/Diagrams/State-2.png Graphic file (type png)
 <use Images/Diagrams/State-2.png>
 Package pdftex.def Info: Images/Diagrams/State-2.png  used on input line 40.
@@ -1251,7 +1257,7 @@ Package pdftex.def Info: Images/Diagrams/State-2.png  used on input line 40.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./Images/Diagrams/uml.png> <./Images/Diagrams/State-1.png>]
-<Images/Diagrams/State-3.png, id=239, 885.3075pt x 240.9pt>
+<Images/Diagrams/State-3.png, id=244, 885.3075pt x 240.9pt>
 File: Images/Diagrams/State-3.png Graphic file (type png)
 <use Images/Diagrams/State-3.png>
 Package pdftex.def Info: Images/Diagrams/State-3.png  used on input line 45.
@@ -1283,22 +1289,25 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 20228 strings out of 494880
- 371164 string characters out of 6179600
- 438579 words of memory out of 5000000
- 23054 multiletter control sequences out of 15000+600000
+ 20237 strings out of 494880
+ 371405 string characters out of 6179601
+ 438578 words of memory out of 5000000
+ 23058 multiletter control sequences out of 15000+600000
  52733 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  59i,21n,65p,1011b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on main.pdf (16 pages, 243486 bytes).
+pdfTeX warning (dest): name{figure.caption.6} has been referenced but does no
+t exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on main.pdf (16 pages, 298400 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 
