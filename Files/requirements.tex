@@ -165,7 +165,111 @@ This application requires an Internet connection for the purpose of transmitting
 \caption{\label{fig:UseCase2}SafeStreets advanced functionality use case diagram}
 \end{figure}
 
-\subsubsection{Use Case Templates}
+\subsubsection{Use Case} 
+\vspace{1cm}
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Login with phone number\\ \hline
+\textbf{Actor} & User\\ \hline
+\textbf{Entry conditions} & The user has installed the application on their device\\ \hline
+\textbf{Events flow} & 1. The user inserts their phone number\\ & 2. The user taps on 'send'\\ & 3. The user receives an SMS with an OTP\\ & 4.The user inputs the OTP\\ & 5. The user taps on 'send'\\ \hline
+\textbf{Exit conditions} &  The user logins and is prompted with the interface of the App\\ \hline
+\textbf{Exceptions} &  1. The user uses an invalid phone number\\& 2. The user inputs an invalid OTP\\ 
+\hline 
+\end{tabular}
+\end{flushleft} 
+\vspace{1.5cm}
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Login with credentials assigned previously\\ \hline
+\textbf{Actor} & Authority\\ \hline
+\textbf{Entry conditions} & The authority was provided with credentials\\ \hline
+\textbf{Events flow} & 1. The authority inputs their username\\& 2. The authority inputs their password\\& 3. The authority taps on 'login'\\ \hline
+\textbf{Exit conditions} & The authority logins and is prompted with the interface of the App\\ \hline
+\textbf{Exceptions} & 1. The authority inputs a wrong username\\& 2.The authority inputs a wrong password\\
+\hline 
+\end{tabular} 
+\end{flushleft}
+\vspace{1.5cm}
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Report violation\\ \hline
+\textbf{Actor} & User\\ \hline
+\textbf{Entry conditions} &  The user is logged in\\ \hline
+\textbf{Events flow} & 1. The user selects 'file a report' on the menu\\& 2. The user taps on the camera icon\\& 3. The user takes a photo of the violation\\& 4. The user selects the type of violation\\& 5. The user writes a brief description\\& 6. The user corrects the license plate(if incorrect)\\& 7. The user taps on 'send'\\ \hline
+\textbf{Exit conditions} &  The user is notified the success of the operation and is brought back\\ & to the main menu\\ \hline
+\textbf{Exceptions} & 1. The user doesn't fill all the fields\\& 2. The user has already filed a report and it has not been closed yet\\& 3. The recognition of the plate was not complete\\
+\hline 
+\end{tabular}
+\end{flushleft}
+\newpage
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Check reports\\ \hline
+\textbf{Actor} & Authority\\ \hline
+\textbf{Entry conditions} &  The authority is logged in\\ \hline
+\textbf{Events flow} & 1. The authority selects 'check report' on the menu\\& 2. The authority selects a report\\& 3. The authority accepts or discards the report\\ \hline
+\textbf{Exit conditions} &  The authority stays on the page and can choose later to close or\\& eliminate the report\\ \hline
+\textbf{Exceptions} & \\
+\hline 
+\end{tabular} 
+\end{flushleft}
+
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Watch list of violations\\ \hline
+\textbf{Actor} & User\\ \hline
+\textbf{Entry conditions} &  The user is logged in\\ \hline
+\textbf{Events flow} & 1. The user selects 'list violations' on the menu\\& 2. The user taps on a specific street\\ \hline
+\textbf{Exit conditions} &  The user can see the types of violation with the respective values\\ \hline
+\textbf{Exceptions} & No violation occured the previous month\\
+\hline 
+\end{tabular}
+\end{flushleft}
+
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Watch list of violations\\ \hline
+\textbf{Actor} & Authority\\ \hline
+\textbf{Entry conditions} &  The authority is logged in\\ \hline
+\textbf{Events flow} & 1. The authority selects 'list violations' on the menu\\& 2. The authority taps on a specific street\\& 3. The authority taps on a specific type of violation\\ \hline
+\textbf{Exit conditions} &  The authority can see the list of the repeated offenders\\ \hline
+\textbf{Exceptions} & No violation occured the previous month\\
+\hline 
+\end{tabular} 
+\end{flushleft}
+
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Watch list of accidents\\ \hline
+\textbf{Actor} & User\\ \hline
+\textbf{Entry conditions} & The user is logged in\\ \hline
+\textbf{Events flow} & The user selects 'list accidents' on the menu\\ \hline
+\textbf{Exit conditions} & The user can see the list of the streets with the respective number of\\& accidents, marked the most unsafe\\ \hline
+\textbf{Exceptions} & No accident occured the previous month\\
+\hline 
+\end{tabular}
+\end{flushleft}
+
+\begin{flushleft}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Name} & Watch list of accidents\\ \hline
+\textbf{Actor} & Authority\\ \hline
+\textbf{Entry conditions} & The authority is logged in\\ \hline
+\textbf{Events flow} & 1. The authority selects 'list accidents' on the menu\\& 2. The authority selects one of the unsafe streets listed\\ \hline
+\textbf{Exit conditions} & The authority can see the number of accidents, the most common\\& type of violation and suggestions for the street\\ \hline
+\textbf{Exceptions} & 1. No accident occured the previous month\\& 2. No street registered at least 12 accidents\\
+\hline 
+\end{tabular}
+\end{flushleft}
 
 \subsubsection{Sequence Diagram}
 \begin{figure}
