@@ -46,10 +46,10 @@ one sig ViewListAccidentsAuthority extends ViewListAccident{
 sig Accident{}
 sig GiveSuggestion{}
 fact ListAccidentAll{
-	all a : Accident | one va: ViewListAccident | a in va.accidents
+	all a : Accident | all va: ViewListAccident | a in va.accidents
 }
 fact ListViolationAll{
-	all v : Violation | one vl: ViewListViolation | v in vl.violations
+	all v : Violation | all vl: ViewListViolation | v in vl.violations
 }
 --A picture is considered only if a related violation exists
 fact ExistancePicture{
@@ -108,7 +108,7 @@ fact EachViolationIsCheckedByAnAuthority{
 }
 --the same Plate can be subject to multiple Violations
 fact PlateViolationConnection{
-	some p: Plate | some v:Violation | p in v.plate
+	some p: Plate | some v: Violation | p in v.plate
 }
 --no vehicles on the same spot at the same time
 fact NoBusySpots{
@@ -130,9 +130,10 @@ fact ExistanceSuggestion{
 pred world1{
 	#User= 4
 	#Violation=2
+	#Accident=5
 }
 
-run world1 for 4 but 2 Violation
+run world1 for 5
 
 
 
