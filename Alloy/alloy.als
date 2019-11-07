@@ -51,31 +51,31 @@ fact ListAccidentAll{
 fact ListViolationAll{
 	all v : Violation | one vl: ViewListViolation | v in vl.violations
 }
---exists only if a related violation exists
+--A picture is considered only if a related violation exists
 fact ExistancePicture{
 	all p : Picture | one v : Violation | p in v.picture
 }
---exists only if a related violation exists
+--A plate is considered only if a related violation exists
 fact ExistancePlate{
 	all p : Plate  | some v : Violation | p in v.plate
 }
---exists only if a related violation exists
+--A date is considered only if a related violation exists
 fact ExistanceDate{
 	all d : Date | some v : Violation | d in v.date
 }
---exists only if a related violation exists
+--An hour is considered only if a related violation exists
 fact ExistanceHour{
 	all h : Hour | some v : Violation | h in v.hour
 }
---exists only if a related violation exists
+--A type is considered if a related violation exists
 fact ExistanceTypeViolation{
 	all t : TypeViolation | some v : Violation | t in v.typeviolation
 }
---exists only if a related violation exists
+--A description is considered only if a related violation exists
 fact ExistanceDescription{
 	all d : Description | one v : Violation | d in v.description
 }
---exists only if a related violation exists
+-- only if a related violation exists
 fact ExistancePosition{
 	all p : Position | some v : Violation | p in v.position
 }
@@ -84,14 +84,14 @@ fact CellPhoneUserConnection{
 	all cp: CellPhone | one u: User | cp in u.cellphone
 }
 --user's cellphone is unique
-fact userCellPhoneisUnique{
+fact UserCellPhoneisUnique{
 	no disjoint t1,t2 : User | t1.cellphone = t2.cellphone
 }
-fact NoIdwithoutAuthority{
+fact NoIdWithoutAuthority{
 	all i: Id | one a : Authority | i in a.id
 }
 --authority's id is unique
-fact authorityIdisUnique{
+fact AuthorityIdIsUnique{
 	no disjoint t1,t2 : Authority | t1.id = t2.id
 }
 --each Violation has only one sender
@@ -103,7 +103,7 @@ fact UserViolationConnection{
 	some u: User | some v:Violation | u in v.sender
 }
 -- each Violation must be checked by one Authority
-fact eachViolationIsCheckedByAnAuthority{
+fact EachViolationIsCheckedByAnAuthority{
 	all v: Violation | one a: Authority | a in v.checker
 }
 --the same Plate can be subject to multiple Violations
@@ -111,7 +111,7 @@ fact PlateViolationConnection{
 	some p: Plate | some v:Violation | p in v.plate
 }
 --no vehicles on the same spot at the same time
-fact noBusySpots1{
+fact NoBusySpots{
 	no disjoint t1,t2: Violation | t1.plate != t2.plate and t1.position = t2.position and t1.date = t2.date and t1.hour = t2.hour
 }
 --different violations with same plates can't be done at the same time
@@ -125,10 +125,6 @@ fact UniquePicture{
 --exists only if a related Accident exists
 fact ExistanceSuggestion{
 	all s : GiveSuggestion | one v : ViewListAccidentsAuthority |s in v.suggestion
-}
-
-fact pdwe{
-	no disjoint 
 }
 
 pred world1{
