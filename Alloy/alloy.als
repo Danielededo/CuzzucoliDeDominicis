@@ -1,47 +1,147 @@
-module tour/addressBook1
-sig Name, Addr {}
-sig Book {
-addr: Name -> lone Addr
+sig CellPhone{}
+sig User{
+	cellphone: one CellPhone
+}
+sig Id{}
+sig Authority{
+	id: one Id
+}
+sig Picture{}
+sig Date{}
+sig Hour{}
+sig TypeViolation{}
+sig Plate{}
+sig Description{}
+sig Position{}
+sig Violation{
+	sender: one User,
+	checker: one Authority,
+	picture: one Picture,
+	date: one Date,
+	hour: one Hour,
+	typeviolation: one TypeViolation,
+	plate: one Plate,
+	description: one Description,
+	position: one Position,
+}
+abstract sig ViewListViolation{
+	violations: some Violation
+}
+one sig ViewListViolationUser extends ViewListViolation{
+	observer: one User
+}
+one sig ViewListViolationAuthority extends ViewListViolation{
+	observer: one Authority
+}
+abstract sig ViewListAccident{
+	accidents: some Accident
+}
+one sig ViewListAccidentsUser extends ViewListAccident{
+	observer: some User
+}
+one sig ViewListAccidentsAuthority extends ViewListAccident{
+	observer: some Authority,
+	suggestion: lone GiveSuggestion
+}
+sig Accident{}
+sig GiveSuggestion{}
+fact ListAccidentAll{
+	all a : Accident | one va: ViewListAccident | a in va.accidents
+}
+fact ListViolationAll{
+	all v : Violation | one vl: ViewListViolation | v in vl.violations
+}
+--exists only if a related violation exists
+fact ExistancePicture{
+	all p : Picture | one v : Violation | p in v.picture
+}
+--exists only if a related violation exists
+fact ExistancePlate{
+	all p : Plate  | some v : Violation | p in v.plate
+}
+--exists only if a related violation exists
+fact ExistanceDate{
+	all d : Date | some v : Violation | d in v.date
+}
+--exists only if a related violation exists
+fact ExistanceHour{
+	all h : Hour | some v : Violation | h in v.hour
+}
+--exists only if a related violation exists
+fact ExistanceTypeViolation{
+	all t : TypeViolation | some v : Violation | t in v.typeviolation
+}
+--exists only if a related violation exists
+fact ExistanceDescription{
+	all d : Description | one v : Violation | d in v.description
+}
+--exists only if a related violation exists
+fact ExistancePosition{
+	all p : Position | some v : Violation | p in v.position
+}
+--All CellPhones have to be associated to a User
+fact CellPhoneUserConnection{
+	all cp: CellPhone | one u: User | cp in u.cellphone
+}
+--user's cellphone is unique
+fact userCellPhoneisUnique{
+	no disjoint t1,t2 : User | t1.cellphone = t2.cellphone
+}
+fact NoIdwithoutAuthority{
+	all i: Id | one a : Authority | i in a.id
+}
+--authority's id is unique
+fact authorityIdisUnique{
+	no disjoint t1,t2 : Authority | t1.id = t2.id
+}
+--each Violation has only one sender
+fact ViolationUserConnection{
+	all v: Violation | one u: User | u in v.sender
+}
+--the same User can report multiple Violations
+fact UserViolationConnection{
+	some u: User | some v:Violation | u in v.sender
+}
+-- each Violation must be checked by one Authority
+fact eachViolationIsCheckedByAnAuthority{
+	all v: Violation | one a: Authority | a in v.checker
+}
+--the same Plate can be subject to multiple Violations
+fact PlateViolationConnection{
+	some p: Plate | some v:Violation | p in v.plate
+}
+--no vehicles on the same spot at the same time
+fact noBusySpots1{
+	no disjoint t1,t2: Violation | t1.plate != t2.plate and t1.position = t2.position and t1.date = t2.date and t1.hour = t2.hour
+}
+--different violations with same plates can't be done at the same time
+fact NoRepetition{
+	no disjoint t1,t2: Violation | t1.plate = t2.plate and t1.date = t2.date and t1.hour = t2.hour
+}
+--unique picture for violation
+fact UniquePicture{
+	no disjoint t1,t2: Violation | t1.picture = t2.picture
+}
+--exists only if a related Accident exists
+fact ExistanceSuggestion{
+	all s : GiveSuggestion | one v : ViewListAccidentsAuthority |s in v.suggestion
 }
 
-/*pred show {}
-run show for 3 but 1 Book*/
-
-pred show (b: Book) {
-#b.addr > 1
-//some n: Name | #n.(b.addr)>1
-#Name.(b.addr)>1
+fact pdwe{
+	no disjoint 
 }
 
-pred add (b, b': Book, n: Name, a: Addr) {
-b'.addr = b.addr + n -> a
+pred world1{
+	#User= 4
+	#Violation=2
 }
 
-pred del (b, b': Book, n: Name) {
-b'.addr = b.addr - n -> Addr
-}
-fun lookup (b: Book, n: Name): set Addr {
-n.(b.addr)
-}
+run world1 for 4 but 2 Violation
 
-//run show for 3 but 1 Book
-//run add for 3 but 2 Book
 
-pred showAdd (b, b': Book, n: Name, a: Addr) {
-add [b, b', n, a]
-#Name.(b'.addr) > 1
-}
 
-//run showAdd //for 3 but 1 Book
 
-/*assert delUndoesAdd {
-all b,b',b'': Book, n: Name, a: Addr |
-		 add [b,b',n,a] and del [b',b'',n] implies b.addr = b''.addr
-}*/
 
-assert delUndoesAdd {
-all b,b',b'': Book, n: Name, a: Addr |
-		no n.(b.addr) and add [b,b',n,a] and del [b',b'',n] implies b.addr = b''.addr
-}
 
-check delUndoesAdd for 100 but 3 Book
+
+
