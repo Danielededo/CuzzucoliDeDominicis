@@ -27,27 +27,31 @@ sig Violation{
 abstract sig ViewListViolation{
 	violations: set Violation
 }
-one sig ViewListViolationUser extends ViewListViolation{
+lone sig ViewListViolationUser extends ViewListViolation{
 	observer: one User
 }
-one sig ViewListViolationAuthority extends ViewListViolation{
+lone sig ViewListViolationAuthority extends ViewListViolation{
 	observer: one Authority
 }
 abstract sig ViewListAccident{
 	accidents: Int 
 } {accidents >= 0}
-one sig ViewListAccidentUser extends ViewListAccident{
+lone sig ViewListAccidentUser extends ViewListAccident{
 	observer: some User
 }
-one sig ViewListAccidentAuthority extends ViewListAccident{
+lone sig ViewListAccidentAuthority extends ViewListAccident{
 	observer: some Authority,
 	suggestion: lone GiveSuggestion
 }{#suggestion=1 iff accidents>=3 }
 sig GiveSuggestion{}
 
+----------------------------------------------------------------------------------------------------
+
+--Two lists of accidents can't have two different quantities, as both users and authorities can inspect them
 fact EqualNumberAccidents{
 	no disjoint t1,t2: ViewListAccident | t1.accidents!=t2.accidents
 }
+--If a list of violation exists, it can see every violation
 fact ListViolationAll{
 	all v : Violation | all vl: ViewListViolation | v in vl.violations
 }
@@ -73,7 +77,7 @@ fact ExistanceTypeViolation{
 }
 --A description is considered only if a related violation exists
 fact ExistanceDescription{
-	all d : Description | one v : Violation | d in v.description
+	all d : Description | some v : Violation | d in v.description
 }
 -- only if a related violation exists
 fact ExistancePosition{
@@ -83,36 +87,16 @@ fact ExistancePosition{
 fact CellPhoneUserConnection{
 	all cp: CellPhone | one u: User | cp in u.cellphone
 }
---user's cellphone is unique
-fact UserCellPhoneisUnique{
-	no disjoint t1,t2 : User | t1.cellphone = t2.cellphone
-}
 fact NoIdWithoutAuthority{
 	all i: Id | one a : Authority | i in a.id
-}
---authority's id is unique
-fact AuthorityIdIsUnique{
-	no disjoint t1,t2 : Authority | t1.id = t2.id
-}
---each Violation has only one sender
-fact ViolationUserConnection{
-	all v: Violation | one u: User | u in v.sender
 }
 --each Authority can check only one violation
 fact ViolationAuthorityConnection{
 	some a: Authority | lone v: Violation | a in v.checker
 }
---the same User can report multiple Violations
-fact UserViolationConnection{
-	lone u: User | some v:Violation | u in v.sender
-}
 -- each Violation must be checked by one Authority
 fact EachViolationIsCheckedByAnAuthority{
 	all v: Violation | one a: Authority | a in v.checker
-}
---the same Plate can be subject to multiple Violations
-fact PlateViolationConnection{
-	lone p: Plate |  some v: Violation | p in v.plate
 }
 --no vehicles on the same spot at the same time
 fact NoBusySpots{
@@ -132,13 +116,28 @@ fact ExistanceSuggestion{
 }
 
 
+--user's cellphone is unique
+assert UserCellPhoneisUnique{
+	no disjoint t1,t2 : User | t1!=t2 and t1.cellphone = t2.cellphone
+}
+--authority's id is unique
+assert AuthorityIdIsUnique{
+	no disjoint t1,t2 : Authority | t1!=t2 and t1.id = t2.id
+}
+
 assert sugg{
 	all a: ViewListAccidentAuthority | #a.suggestion=1 iff a.accidents >=3
 }
 
---check sugg for 2
+check sugg
+
+--check UserCellPhoneisUnique
+
+--check AuthorityIdIsUnique
 
 pred world1{
+
+	
 }
 
 pred world2{}
@@ -147,7 +146,8 @@ pred world3{}
 
 pred world4{}
 
-run world1 for 7 but 3 Plate, 2 Authority, 1 User
+run world1 for 5 but 3 Violation, 0 ViewListViolationUser, 0 ViewListViolationAuthority, 0 ViewListAccidentAuthority, 0 ViewListAccidentUser  
+
 
 
 
