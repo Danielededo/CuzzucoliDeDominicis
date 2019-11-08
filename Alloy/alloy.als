@@ -15,7 +15,7 @@ sig Description{}
 sig Position{}
 sig Violation{
 	sender: one User,
-	checker: one Authority,
+	checker: lone Authority,
 	picture: one Picture,
 	date: one Date,
 	hour: one Hour,
@@ -25,7 +25,7 @@ sig Violation{
 	position: one Position,
 }
 abstract sig ViewListViolation{
-	violations: some Violation
+	violations: set Violation
 }
 one sig ViewListViolationUser extends ViewListViolation{
 	observer: one User
@@ -34,19 +34,19 @@ one sig ViewListViolationAuthority extends ViewListViolation{
 	observer: one Authority
 }
 abstract sig ViewListAccident{
-	accidents: some Accident
-}
-one sig ViewListAccidentsUser extends ViewListAccident{
+	accidents: Int 
+} {accidents >= 0}
+one sig ViewListAccidentUser extends ViewListAccident{
 	observer: some User
 }
-one sig ViewListAccidentsAuthority extends ViewListAccident{
+one sig ViewListAccidentAuthority extends ViewListAccident{
 	observer: some Authority,
 	suggestion: lone GiveSuggestion
-}
-sig Accident{}
+}{#suggestion=1 iff accidents>=3 }
 sig GiveSuggestion{}
-fact ListAccidentAll{
-	all a : Accident | all va: ViewListAccident | a in va.accidents
+
+fact EqualNumberAccidents{
+	no disjoint t1,t2: ViewListAccident | t1.accidents!=t2.accidents
 }
 fact ListViolationAll{
 	all v : Violation | all vl: ViewListViolation | v in vl.violations
@@ -98,6 +98,10 @@ fact AuthorityIdIsUnique{
 fact ViolationUserConnection{
 	all v: Violation | one u: User | u in v.sender
 }
+--each Authority can check only one violation
+fact ViolationAuthorityConnection{
+	some a: Authority | one v: Violation | a in v.checker
+}
 --the same User can report multiple Violations
 fact UserViolationConnection{
 	some u: User | some v:Violation | u in v.sender
@@ -124,16 +128,28 @@ fact UniquePicture{
 }
 --exists only if a related Accident exists
 fact ExistanceSuggestion{
-	all s : GiveSuggestion | one v : ViewListAccidentsAuthority |s in v.suggestion
+	all s : GiveSuggestion | one v : ViewListAccidentAuthority |s in v.suggestion
 }
+
+assert sugg{
+	all a: ViewListAccidentAuthority | #a.suggestion=1 iff a.accidents >=3
+}
+
+--check sugg for 2
 
 pred world1{
-	#User= 4
+	#User= 2
+	#Authority=2
 	#Violation=2
-	#Accident=5
 }
 
-run world1 for 5
+pred world2{}
+
+pred world3{}
+
+pred world4{}
+
+run world1 
 
 
 
