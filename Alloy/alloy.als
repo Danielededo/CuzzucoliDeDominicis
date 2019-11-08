@@ -100,11 +100,11 @@ fact ViolationUserConnection{
 }
 --each Authority can check only one violation
 fact ViolationAuthorityConnection{
-	some a: Authority | one v: Violation | a in v.checker
+	some a: Authority | lone v: Violation | a in v.checker
 }
 --the same User can report multiple Violations
 fact UserViolationConnection{
-	some u: User | some v:Violation | u in v.sender
+	lone u: User | some v:Violation | u in v.sender
 }
 -- each Violation must be checked by one Authority
 fact EachViolationIsCheckedByAnAuthority{
@@ -112,7 +112,7 @@ fact EachViolationIsCheckedByAnAuthority{
 }
 --the same Plate can be subject to multiple Violations
 fact PlateViolationConnection{
-	some p: Plate | some v: Violation | p in v.plate
+	lone p: Plate |  some v: Violation | p in v.plate
 }
 --no vehicles on the same spot at the same time
 fact NoBusySpots{
@@ -131,6 +131,7 @@ fact ExistanceSuggestion{
 	all s : GiveSuggestion | one v : ViewListAccidentAuthority |s in v.suggestion
 }
 
+
 assert sugg{
 	all a: ViewListAccidentAuthority | #a.suggestion=1 iff a.accidents >=3
 }
@@ -138,9 +139,6 @@ assert sugg{
 --check sugg for 2
 
 pred world1{
-	#User= 2
-	#Authority=2
-	#Violation=2
 }
 
 pred world2{}
@@ -149,7 +147,8 @@ pred world3{}
 
 pred world4{}
 
-run world1 
+run world1 for 7 but 3 Plate, 2 Authority, 1 User
+
 
 
 
