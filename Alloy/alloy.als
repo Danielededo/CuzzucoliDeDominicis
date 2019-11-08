@@ -28,10 +28,10 @@ abstract sig ViewListViolation{
 	violations: set Violation
 }
 lone sig ViewListViolationUser extends ViewListViolation{
-	observer: one User
+	observer: some User
 }
 lone sig ViewListViolationAuthority extends ViewListViolation{
-	observer: one Authority
+	observer: some Authority
 }
 abstract sig ViewListAccident{
 	accidents: Int 
@@ -131,27 +131,31 @@ assert sugg{
 
 check sugg
 
---check UserCellPhoneisUnique
+check UserCellPhoneisUnique
 
---check AuthorityIdIsUnique
+check AuthorityIdIsUnique
 
-pred world1{
-
-	
-}
+pred world1{}
 
 pred world2{}
 
 pred world3{}
 
-pred world4{}
+pred world4{
+	#Violation=3
+	#ViewListViolationUser=1
+	#ViewListViolationAuthority=1
+	#ViewListAccidentAuthority=1
+	#ViewListAccidentUser=1
+}
 
-run world1 for 5 but 3 Violation, 0 ViewListViolationUser, 0 ViewListViolationAuthority, 0 ViewListAccidentAuthority, 0 ViewListAccidentUser  
+run world1 for 2 but 2 Violation, 0 ViewListViolationUser, 0 ViewListViolationAuthority, 0 ViewListAccidentAuthority, 0 ViewListAccidentUser 
 
+run world2 for 2 but 0 Violation, 0 ViewListAccidentAuthority, 0 ViewListAccidentUser, 3 User, 2 Authority
 
+run world3 for 3 but 0 ViewListViolationUser, 0 ViewListViolationAuthority
 
-
-
+run world4 for 4
 
 
 
