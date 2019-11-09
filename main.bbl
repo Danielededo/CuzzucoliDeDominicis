@@ -1,3 +1,19 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{ASSIGNMENT}
+Di~Nitto Elisabetta.
+\newblock Mandatory project: goal, schedule, and rules, 2019.
+
+\bibitem{ALLOY}
+Software~Design Group.
+\newblock about alloy.
+\newblock Technical report, {MIT}, 1997.
+\newblock \textsc{url}: \url{https://alloytools.org/about.html}.
+
+\bibitem{UML}
+The Object Management~Group (OMG).
+\newblock Unified modelling language: Infrastructure, 2011. version 2.4.1. omg
+  document: formal/2011-08-05.
+\newblock Technical report, {}, 2011.
 
 \end{thebibliography}
