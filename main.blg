@@ -1,5 +1,22 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[0] Config.pm:305> INFO - Logfile is 'main.blg'
-[263] biber:313> INFO - === ven nov  8, 2019, 18:26:51
-[666] Utils.pm:185> ERROR - Cannot find control file 'main.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[666] Biber.pm:114> INFO - ERRORS: 1
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  C for Unix
+Release version: 3.71 (18 mar 2013)
+
+The 8-bit codepage and sorting file: 88591lat.csf
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Reallocated glb_str_ptr (elt_size=8) to 10 items from 0.
+Reallocated global_strs (elt_size=20001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=8) to 10 items from 0.
+Database file #1: main.bib
+Warning--I didn't find a database entry for "assignment.pdf"
+Warning--I didn't find a database entry for "http://alloy.lcs.mit.edu/alloy/documentation.html"
+
+Here's how much of BibTeX's memory you used:
+ Cites:                 0 out of 750
+ Fields:               23 out of 5000
+ Hash table:        99851 out of 100000
+ Strings:             496 out of 100000
+ Free string pool:   4027 out of 65000
+ Wizard functions:   2118 out of 3000
+(There were 2 warnings)

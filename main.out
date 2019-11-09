@@ -32,16 +32,18 @@
 \BOOKMARK [3][-]{subsubsection.3.1.4}{Software Interfaces}{subsection.3.1}% 32
 \BOOKMARK [3][-]{subsubsection.3.1.5}{Communication Interfaces}{subsection.3.1}% 33
 \BOOKMARK [2][-]{subsection.3.2}{Functional Requirements}{section.3}% 34
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Use Case Diagrams}{subsection.3.2}% 35
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Use Case}{subsection.3.2}% 36
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Sequence Diagram}{subsection.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.3}{Performance Requirements}{section.3}% 38
-\BOOKMARK [2][-]{subsection.3.4}{Design Constraints}{section.3}% 39
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Hardware Limitation}{subsection.3.4}% 40
-\BOOKMARK [2][-]{subsection.3.5}{Software System Attributes}{section.3}% 41
-\BOOKMARK [3][-]{subsubsection.3.5.1}{Reliability}{subsection.3.5}% 42
-\BOOKMARK [3][-]{subsubsection.3.5.2}{Availability}{subsection.3.5}% 43
-\BOOKMARK [3][-]{subsubsection.3.5.3}{Security}{subsection.3.5}% 44
-\BOOKMARK [1][-]{section.4}{Formal Analysis Using Alloy}{}% 45
-\BOOKMARK [2][-]{subsection.4.1}{Generated Worlds}{section.4}% 46
-\BOOKMARK [1][-]{section.5}{Effort Spent}{}% 47
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Scenarios}{subsection.3.2}% 35
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Use Case Diagrams}{subsection.3.2}% 36
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Use Case}{subsection.3.2}% 37
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Sequence Diagram}{subsection.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.3}{Performance Requirements}{section.3}% 39
+\BOOKMARK [2][-]{subsection.3.4}{Design Constraints}{section.3}% 40
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Hardware Limitation}{subsection.3.4}% 41
+\BOOKMARK [2][-]{subsection.3.5}{Software System Attributes}{section.3}% 42
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Reliability}{subsection.3.5}% 43
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Availability}{subsection.3.5}% 44
+\BOOKMARK [3][-]{subsubsection.3.5.3}{Security}{subsection.3.5}% 45
+\BOOKMARK [1][-]{section.4}{Formal Analysis Using Alloy}{}% 46
+\BOOKMARK [2][-]{subsection.4.1}{Generated Worlds}{section.4}% 47
+\BOOKMARK [1][-]{section.5}{Effort Spent}{}% 48
+\BOOKMARK [1][-]{section.5}{References}{}% 49
