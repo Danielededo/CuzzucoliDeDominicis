@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.1)  13 NOV 2019 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.14)  25 NOV 2019 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,7 +898,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-<Images/PolimiLogo.jpg, id=96, 853.1875pt x 451.6875pt>
+<Images/PolimiLogo.jpg, id=99, 853.1875pt x 451.6875pt>
 File: Images/PolimiLogo.jpg Graphic file (type jpg)
 <use Images/PolimiLogo.jpg>
 Package pdftex.def Info: Images/PolimiLogo.jpg  used on input line 8.
@@ -946,50 +946,52 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
  [4] (./Files/introduction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-) [5
+ [5
+
+]) [6]
+(./Files/architectural_design.tex) [7
+
+] (./Files/user_interface.tex) [8
 
 ]
-(./Files/architectural_design.tex) [6
-
-] (./Files/user_interface.tex) [7
+(./Files/requirements_traceability.tex) [9
 
 ]
-(./Files/requirements_traceability.tex) [8
-
-]
-(./Files/implementation_integration_testplan.tex) [9
+(./Files/implementation_integration_testplan.tex) [10
 
 ] (./Files/effort.tex)
-[10
+[11
+
+] (./main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+ [12
 
 ]
-No file main.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
-(./main.aux)
+ (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 21753D4AC5A00660E98B16A8B3D9DC58;1473.
+(rerunfilecheck)             Checksum: 189656879574F3699B360D2AB4DFF914;1519.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 11377 strings out of 494880
- 164431 string characters out of 6179601
- 267113 words of memory out of 5000000
- 14446 multiletter control sequences out of 15000+600000
+ 11395 strings out of 494880
+ 164609 string characters out of 6179600
+ 268195 words of memory out of 5000000
+ 14456 multiletter control sequences out of 15000+600000
  52420 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 43i,21n,43p,270b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,21n,43p,424b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (10 pages, 79976 bytes).
+Output written on main.pdf (12 pages, 85806 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
