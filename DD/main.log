@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.14)  25 NOV 2019 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.14)  26 NOV 2019 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,11 +976,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 11395 strings out of 494880
- 164609 string characters out of 6179600
+ 11397 strings out of 494880
+ 164633 string characters out of 6179600
  268195 words of memory out of 5000000
- 14456 multiletter control sequences out of 15000+600000
- 52420 words of font info for 61 fonts, out of 8000000 for 9000
+ 14457 multiletter control sequences out of 15000+600000
+ 55268 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  43i,21n,43p,424b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -988,7 +988,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (12 pages, 85806 bytes).
+Output written on main.pdf (12 pages, 86580 bytes).
 PDF statistics:
  218 PDF objects out of 1000 (max. 8388607)
  195 compressed objects within 2 object streams
