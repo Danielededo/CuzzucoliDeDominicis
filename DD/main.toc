@@ -13,12 +13,13 @@
 \contentsline {section}{\numberline {2}Architectural Design}{7}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}Overview}{7}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}Component view}{8}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Deployment view}{8}{subsection.2.3}% 
-\contentsline {subsection}{\numberline {2.4}Runtime view}{8}{subsection.2.4}% 
-\contentsline {subsection}{\numberline {2.5}Component interfaces}{8}{subsection.2.5}% 
-\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{8}{subsection.2.6}% 
-\contentsline {section}{\numberline {3}User Interface Design}{9}{section.3}% 
-\contentsline {section}{\numberline {4}Requirements Traceability}{10}{section.4}% 
-\contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{11}{section.5}% 
-\contentsline {section}{\numberline {6}Effort Spent}{12}{section.6}% 
-\contentsline {section}{References}{13}{section.6}% 
+\contentsline {subsection}{\numberline {2.3}Deployment view}{10}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Runtime view}{11}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}User Access}{11}{subsubsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.5}Component interfaces}{11}{subsection.2.5}% 
+\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{11}{subsection.2.6}% 
+\contentsline {section}{\numberline {3}User Interface Design}{12}{section.3}% 
+\contentsline {section}{\numberline {4}Requirements Traceability}{13}{section.4}% 
+\contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{14}{section.5}% 
+\contentsline {section}{\numberline {6}Effort Spent}{15}{section.6}% 
+\contentsline {section}{References}{16}{section.6}% 

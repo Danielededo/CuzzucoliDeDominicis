@@ -7,7 +7,7 @@
 
     The project is developed using a three-tier architecture implementation to properly separate the levels of Presentaion, Application and Data.
     The choice leads to the concept of "thin client": the client that has no knowledge of the logic behind the Application, but knows well how to interact with it 
-    and exploit its services.  This guarantees the App being "light" on resources and power consumption (the citizens do not need to have a high end smartphone),.
+    and exploit its services. This guarantees the App being "light" on resources and power consumption (the citizens do not need to have a high end smartphone).
     This leads to a high level of Mantainability and Scalability (a quality well appreciated to keep up with the expansion of the city).
 
 \newpage
@@ -19,7 +19,7 @@
         \caption{\label{fig:ComponentView}Component diagram}
     \end{figure}
 
-    The UML Component Diagram shows the internal modular structure of the componentsand their connections. 
+    The UML Component diagram shows the internal modular structure of the componentsand their connections. 
     To communicate, they can require a variable number of interfaces and attributes. 
     A brief description of each component, w.r.t the most importants interfaces, is presented:
 
@@ -104,12 +104,18 @@
         \caption{\label{fig:deployment}Deployment diagram}
         
     \end{figure}
-
+	
+	The purpose of the Deployment diagram is to specify the distribution of the components of the system, showing the configuration of run time processing nodes and components that live on them. 
 
 \newpage
 
 \subsection{Runtime view}
-
+\subsubsection{User Access}
+	\begin{figure}[H]
+	
+		\includegraphics[width=\textwidth]{Images/RunTimeViewUserAccess.png}		
+		\caption{\label{fig:UserAccess}User access sequence diagram}
+	\end{figure}
 \subsection{Component interfaces}
 
 \subsection{Selected architectural styles and patterns}
