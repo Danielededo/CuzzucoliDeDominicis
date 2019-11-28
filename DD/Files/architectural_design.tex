@@ -4,12 +4,7 @@
         \includegraphics[width=\textwidth]{Images/SystemOverview.png}
         \caption{\label{fig:SystemOverview}High level overwiew of the system}
     \end{figure}
-
-    The project is developed using a three-tier architecture implementation to properly separate the levels of Presentaion, Application and Data.
-    The choice leads to the concept of "thin client": the client that has no knowledge of the logic behind the Application, but knows well how to interact with it 
-    and exploit its services. This guarantees the App being "light" on resources and power consumption (the citizens do not need to have a high end smartphone).
-    This leads to a high level of Mantainability and Scalability (a quality well appreciated to keep up with the expansion of the city).
-
+   
 \newpage
 
 \subsection{Component view}
@@ -25,7 +20,7 @@
 
     \begin{itemize}
 
-        \item (Presentaion) Clients: Citizens' and authorities' machines, they can be either mobile devices or computers.
+        \item Clients: Citizens' and authorities' machines, they can be either mobile devices or computers.
         
         \begin{itemize}
 
@@ -51,7 +46,7 @@
             
         \end{itemize}
 
-        \item (Application) Server Backend: Interacts with the clients and the Databases and contains the logic of the Application.
+        \item Server Backend: Interacts with the clients and the Databases and contains the logic of the Application.
         
         \begin{itemize}
             \item Check Manager: Requests and receives the OTP by OTPGenerator to withstand the login of the citizen
@@ -72,23 +67,7 @@
 
         \end{itemize}
         
-        \item (Data) Databases: Composed of three different elements (as different levels of security and replication are needed),
-        they exchange messages with the Server, they allow the retrieval and addition of data.
-
-        \begin{itemize}
-
-            \item  Report Server: The data saved on this server is not important as reports are very dependent on time. The images and information
-                stored are not legally binding (only authorities can administer fines), thus it must be able to handle large quantities of data and 
-                be operative in a short span of time but data loss can be sustained.
-
-            \item Violation Server: The data stored here is composed of light elements (only text) which do not require particular encryption thus the server 
-                is able to sustain a great deal of ACID operations but requires data duplication.
-
-            \item Credentials Server: This server contains information for the Authentication of the authorities so, not only does it require data duplication
-                to be quickly operative also in case of failure, but encryption is also crucial to this device. Data is stored following good pratices of 
-                security (e.g. only the salted hashes of the password are saved).     
-
-        \end{itemize}
+        \item Databases: They allow the retrieval and addition of data.
         
     \end{itemize}
 
@@ -123,3 +102,51 @@
 \subsection{Component interfaces}
 
 \subsection{Selected architectural styles and patterns}
+
+\subsubsection{Three tier client-server}
+
+The architectural style chosen for Safestreets it the \textbf{client-server} in its \textbf{three-tier} variant.  allows the 
+separation of the access to data, presentation and logic of the application.
+The main advantage of a multilayered architecture is the decoupling of Logic and Data. This leads to a high level of Mantainability and Scalability, 
+qualities that are extremely useful when working with cities that tend to expand their territory and consequently the number of streets to be controlled.
+At the same time the system is safe as the access to data is transparent to the end user.
+
+\subsubsection{MVC}
+
+MVC is a desing pattern that breaks an application into different layers	of functionalities:	Model, View and Controller.
+This allows for the internal representation of information to differ from the information presented to the user. 
+This produces easily reusable and flexible code and allows parallel development. The division is expressed here:
+
+\begin{itemize}
+    \item \textbf{View:} Clients.
+    \item \textbf{Controller:} Application.
+    \item \textbf{Model:} DBs.
+    
+    
+\end{itemize}
+
+\subsection{Other Design Decisions}
+
+\subsubsection{Thin client}
+
+In SafeStreets the client contains no logic of the Application at all, but it is just able to format and send reports and to request lists.
+This guarantees the App to be "light" on resources and power consumption (the citizens do not need to have a high end smartphone) while keeping it easily upgradable.
+
+\subsubsection{Data division}
+
+Data is spread among three different DBs as different types of data requires different levels of security and replication:
+
+\begin{itemize}
+
+    \item  Report Server: The data saved on this server is not important as reports are very dependent on time. The images and information
+        stored are not legally binding (only authorities can administer fines), thus it must be able to handle large quantities of data and 
+        be operative in a short span of time but data loss can be sustained.
+
+    \item Violation Server: The data stored here is composed of light elements (only text) which do not require particular encryption thus the server 
+        is able to sustain a great deal of ACID operations but requires data duplication.
+
+    \item Credentials Server: This server contains information for the Authentication of the authorities so, not only does it require data duplication
+        to be quickly operative also in case of failure, but encryption is also crucial to this device. Data is stored following good pratices of 
+        security (e.g. only the salted hashes of the password are saved).     
+
+\end{itemize}
