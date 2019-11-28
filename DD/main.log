@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.16)  28 NOV 2019 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.16)  28 NOV 2019 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,7 +585,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-<Images/PolimiLogo.jpg, id=103, 853.1875pt x 451.6875pt>
+<Images/PolimiLogo.jpg, id=107, 853.1875pt x 451.6875pt>
 File: Images/PolimiLogo.jpg Graphic file (type jpg)
 <use Images/PolimiLogo.jpg>
 Package pdftex.def Info: Images/PolimiLogo.jpg  used on input line 8.
@@ -637,7 +637,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 
 ]) [6]
 (./Files/architectural_design.tex
-<Images/SystemOverview.png, id=177, 723.70375pt x 376.40625pt>
+<Images/SystemOverview.png, id=184, 723.70375pt x 376.40625pt>
 File: Images/SystemOverview.png Graphic file (type png)
 <use Images/SystemOverview.png>
 Package pdftex.def Info: Images/SystemOverview.png  used on input line 4.
@@ -645,7 +645,7 @@ Package pdftex.def Info: Images/SystemOverview.png  used on input line 4.
  [7
 
  <./Images/SystemOverview.png>]
-<Images/ComponentView.png, id=185, 1073.51062pt x 583.42969pt>
+<Images/ComponentView.png, id=192, 1073.51062pt x 583.42969pt>
 File: Images/ComponentView.png Graphic file (type png)
 <use Images/ComponentView.png>
 Package pdftex.def Info: Images/ComponentView.png  used on input line 18.
@@ -657,31 +657,39 @@ s to Au-thor-i-tyFron-tend::ReportManager,
  []
 
 [9]
-<Images/deployment.jpg, id=194, 1145.27875pt x 713.66624pt>
+<Images/deployment.jpg, id=201, 1145.27875pt x 713.66624pt>
 File: Images/deployment.jpg Graphic file (type jpg)
 <use Images/deployment.jpg>
 Package pdftex.def Info: Images/deployment.jpg  used on input line 103.
 (pdftex.def)             Requested size: 455.24411pt x 283.67552pt.
  [10 <./Images/deployment.jpg>]
-<Images/RunTimeViewUserAccess.png, id=199, 664.4825pt x 423.5825pt>
+<Images/RunTimeViewUserAccess.png, id=206, 664.4825pt x 423.5825pt>
 File: Images/RunTimeViewUserAccess.png Graphic file (type png)
 <use Images/RunTimeViewUserAccess.png>
 Package pdftex.def Info: Images/RunTimeViewUserAccess.png  used on input line 1
-16.
+15.
 (pdftex.def)             Requested size: 455.24411pt x 290.20396pt.
-) [11 <./Images/RunTimeViewUserAccess.png>]
-(./Files/user_interface.tex) [12
-
-] (./Files/requirements_traceability.tex)
+<Images/RunTimeViewAuthorityAccess.png, id=207, 664.4825pt x 343.2825pt>
+File: Images/RunTimeViewAuthorityAccess.png Graphic file (type png)
+<use Images/RunTimeViewAuthorityAccess.png>
+Package pdftex.def Info: Images/RunTimeViewAuthorityAccess.png  used on input l
+ine 120.
+(pdftex.def)             Requested size: 455.24411pt x 235.18898pt.
+) [11 <./Images/RunTimeViewUserAccess.png> <./Images/RunTimeViewAuthorityAccess
+.png>] [12] (./Files/user_interface.tex)
 [13
 
-] (./Files/implementation_integration_testplan.tex) [14
+] (./Files/requirements_traceability.tex) [14
 
-] (./Files/effort.tex) [15
+]
+(./Files/implementation_integration_testplan.tex) [15
+
+] (./Files/effort.tex)
+[16
 
 ] (./main.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
- [16
+ [17
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
@@ -689,14 +697,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0BDC89A1C9F4CA45371E9BB3ED5F7B6E;1590.
+(rerunfilecheck)             Checksum: 853897DACA6343F9A37CEB6E890BF9A1;1666.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 11225 strings out of 494510
- 164474 string characters out of 6176235
- 274250 words of memory out of 5000000
- 14638 multiletter control sequences out of 15000+600000
+ 11235 strings out of 494510
+ 164755 string characters out of 6176235
+ 274315 words of memory out of 5000000
+ 14644 multiletter control sequences out of 15000+600000
  55268 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,20n,43p,424b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -705,10 +713,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (16 pages, 489724 bytes).
+Output written on main.pdf (17 pages, 510560 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 
