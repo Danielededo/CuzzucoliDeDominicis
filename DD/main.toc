@@ -17,6 +17,7 @@
 \contentsline {subsection}{\numberline {2.4}Runtime view}{11}{subsection.2.4}% 
 \contentsline {subsubsection}{\numberline {2.4.1}User Access}{11}{subsubsection.2.4.1}% 
 \contentsline {subsubsection}{\numberline {2.4.2}Authority Access}{11}{subsubsection.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.3}User Files a report}{12}{subsubsection.2.4.3}% 
 \contentsline {subsection}{\numberline {2.5}Component interfaces}{12}{subsection.2.5}% 
 \contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{12}{subsection.2.6}% 
 \contentsline {section}{\numberline {3}User Interface Design}{13}{section.3}% 
