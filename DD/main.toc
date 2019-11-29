@@ -18,10 +18,17 @@
 \contentsline {subsubsection}{\numberline {2.4.1}User Access}{11}{subsubsection.2.4.1}% 
 \contentsline {subsubsection}{\numberline {2.4.2}Authority Access}{11}{subsubsection.2.4.2}% 
 \contentsline {subsubsection}{\numberline {2.4.3}User Files a report}{12}{subsubsection.2.4.3}% 
-\contentsline {subsection}{\numberline {2.5}Component interfaces}{12}{subsection.2.5}% 
-\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{12}{subsection.2.6}% 
-\contentsline {section}{\numberline {3}User Interface Design}{13}{section.3}% 
-\contentsline {section}{\numberline {4}Requirements Traceability}{14}{section.4}% 
-\contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{15}{section.5}% 
-\contentsline {section}{\numberline {6}Effort Spent}{16}{section.6}% 
-\contentsline {section}{References}{17}{section.6}% 
+\contentsline {subsubsection}{\numberline {2.4.4}Authority Checks a report}{12}{subsubsection.2.4.4}% 
+\contentsline {subsubsection}{\numberline {2.4.5}Authority/User reads list of violations}{13}{subsubsection.2.4.5}% 
+\contentsline {subsection}{\numberline {2.5}Component interfaces}{14}{subsection.2.5}% 
+\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{14}{subsection.2.6}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Three tier client-server}{14}{subsubsection.2.6.1}% 
+\contentsline {subsubsection}{\numberline {2.6.2}MVC}{14}{subsubsection.2.6.2}% 
+\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{14}{subsection.2.7}% 
+\contentsline {subsubsection}{\numberline {2.7.1}Thin client}{14}{subsubsection.2.7.1}% 
+\contentsline {subsubsection}{\numberline {2.7.2}Data division}{14}{subsubsection.2.7.2}% 
+\contentsline {section}{\numberline {3}User Interface Design}{15}{section.3}% 
+\contentsline {section}{\numberline {4}Requirements Traceability}{16}{section.4}% 
+\contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{17}{section.5}% 
+\contentsline {section}{\numberline {6}Effort Spent}{18}{section.6}% 
+\contentsline {section}{References}{19}{section.6}% 
