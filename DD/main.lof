@@ -4,3 +4,5 @@
 \contentsline {figure}{\numberline {4}{\ignorespaces User access sequence diagram\relax }}{11}{figure.caption.7}% 
 \contentsline {figure}{\numberline {5}{\ignorespaces Authority access sequence diagram\relax }}{11}{figure.caption.8}% 
 \contentsline {figure}{\numberline {6}{\ignorespaces User files a report sequence diagram\relax }}{12}{figure.caption.9}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces Authority checks a report sequence diagram\relax }}{12}{figure.caption.10}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Authority/User reads list of violations sequence diagram\relax }}{13}{figure.caption.11}% 

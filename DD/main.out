@@ -18,10 +18,17 @@
 \BOOKMARK [3][-]{subsubsection.2.4.1}{User Access}{subsection.2.4}% 18
 \BOOKMARK [3][-]{subsubsection.2.4.2}{Authority Access}{subsection.2.4}% 19
 \BOOKMARK [3][-]{subsubsection.2.4.3}{User Files a report}{subsection.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.5}{Component interfaces}{section.2}% 21
-\BOOKMARK [2][-]{subsection.2.6}{Selected architectural styles and patterns}{section.2}% 22
-\BOOKMARK [1][-]{section.3}{User Interface Design}{}% 23
-\BOOKMARK [1][-]{section.4}{Requirements Traceability}{}% 24
-\BOOKMARK [1][-]{section.5}{Implementation, Integration and Test Plan}{}% 25
-\BOOKMARK [1][-]{section.6}{Effort Spent}{}% 26
-\BOOKMARK [1][-]{section.6}{References}{}% 27
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Authority Checks a report}{subsection.2.4}% 21
+\BOOKMARK [3][-]{subsubsection.2.4.5}{Authority/User reads list of violations}{subsection.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.5}{Component interfaces}{section.2}% 23
+\BOOKMARK [2][-]{subsection.2.6}{Selected architectural styles and patterns}{section.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Three tier client-server}{subsection.2.6}% 25
+\BOOKMARK [3][-]{subsubsection.2.6.2}{MVC}{subsection.2.6}% 26
+\BOOKMARK [2][-]{subsection.2.7}{Other Design Decisions}{section.2}% 27
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Thin client}{subsection.2.7}% 28
+\BOOKMARK [3][-]{subsubsection.2.7.2}{Data division}{subsection.2.7}% 29
+\BOOKMARK [1][-]{section.3}{User Interface Design}{}% 30
+\BOOKMARK [1][-]{section.4}{Requirements Traceability}{}% 31
+\BOOKMARK [1][-]{section.5}{Implementation, Integration and Test Plan}{}% 32
+\BOOKMARK [1][-]{section.6}{Effort Spent}{}% 33
+\BOOKMARK [1][-]{section.6}{References}{}% 34
