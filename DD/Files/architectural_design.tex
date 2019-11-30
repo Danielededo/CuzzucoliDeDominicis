@@ -7,7 +7,7 @@
    
 \newpage
 
-\subsection{Component view}
+\subsection{Component View}
 
     \begin{figure}[H]
         \includegraphics[width=\textwidth]{Images/ComponentView.png}
@@ -51,8 +51,7 @@
         \begin{itemize}
             \item Check Manager: Requests and receives the OTP by OTPGenerator to withstand the login of the citizen
             
-            \item Report Dispatcher: Receives the information about the reports filed by citizens, completes them with data obtained by the CNN API 
-                (a.k.a the recognized plates) and pushes them to the Report Server if the report is correctly fulfilled, aborting the incorrect ones.
+            \item Report Dispatcher: Receives the information about the reports filed by citizens and pushes them to the Report Server if the report is correctly fulfilled, aborting the incorrect ones.
 
             \item Authentication Manager: Exchanges information with the Database containing the credentials of the authority that wants to login
                 and ultimates the login process
@@ -75,7 +74,7 @@
 
 
 
-\subsection{Deployment view}
+\subsection{Deployment View}
 
     \begin{figure}[H]
 
@@ -88,7 +87,7 @@
 
 \newpage
 
-\subsection{Runtime view}
+\subsection{Runtime View}
 \subsubsection{User Access}
 	\begin{figure}[H]
 		\includegraphics[width=\textwidth]{Images/RunTimeViewUserAccess.png}		
@@ -116,11 +115,15 @@
 	\end{figure}
 
 \newpage
-\subsection{Component interfaces}
-
+\subsection{Component Interfaces}
+\begin{figure}[H]
+%		\includegraphics[width=\textwidth]{Images/ComponentInterfaces.png}		
+		\caption{\label{fig:ComponentInterfaces}Component Interfaces}
+	\end{figure}
+\newpage
 \subsection{Selected architectural styles and patterns}
 
-\subsubsection{Three tier client-server}
+\subsubsection{Three Tier client-server}
 
 The architectural style chosen for Safestreets it the \textbf{client-server} in its \textbf{three-tier} variant.  allows the 
 separation of the access to data, presentation and logic of the application.
@@ -144,12 +147,12 @@ This produces easily reusable and flexible code and allows parallel development.
 
 \subsection{Other Design Decisions}
 
-\subsubsection{Thin client}
+\subsubsection{Thin Client}
 
 In SafeStreets the client contains no logic of the Application at all, but it is just able to format and send reports and to request lists.
 This guarantees the App to be "light" on resources and power consumption (the citizens do not need to have a high end smartphone) while keeping it easily upgradable.
 
-\subsubsection{Data division}
+\subsubsection{Data Division}
 
 Data is spread among three different DBs as different types of data requires different levels of security and replication:
 

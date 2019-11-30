@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.16)  29 NOV 2019 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.16)  30 NOV 2019 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,7 +644,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 
 ]) [6]
 (./Files/architectural_design.tex
-<Images/SystemOverview.png, id=230, 723.70375pt x 376.40625pt>
+<Images/SystemOverview.png, id=236, 723.70375pt x 376.40625pt>
 File: Images/SystemOverview.png Graphic file (type png)
 <use Images/SystemOverview.png>
 Package pdftex.def Info: Images/SystemOverview.png  used on input line 4.
@@ -652,75 +652,96 @@ Package pdftex.def Info: Images/SystemOverview.png  used on input line 4.
  [7
 
  <./Images/SystemOverview.png>]
-<Images/ComponentView.png, id=238, 1073.51062pt x 583.42969pt>
+<Images/ComponentView.png, id=244, 1073.51062pt x 583.42969pt>
 File: Images/ComponentView.png Graphic file (type png)
 <use Images/ComponentView.png>
 Package pdftex.def Info: Images/ComponentView.png  used on input line 13.
 (pdftex.def)             Requested size: 455.24411pt x 247.41574pt.
- [8 <./Images/ComponentView.png (PNG copy)>]
-Overfull \hbox (20.1786pt too wide) in paragraph at lines 64--67
+
+Overfull \hbox (20.1786pt too wide) in paragraph at lines 63--66
 []\T1/ptm/m/n/10.95 Report Checker: Sends in-for-ma-tion about the open re-port
 s to Au-thor-i-tyFron-tend::ReportManager,
  []
 
-[9]
-<Images/deployment.jpg, id=247, 1145.27875pt x 713.66624pt>
+[8 <./Images/ComponentView.png (PNG copy)>] [9]
+<Images/deployment.jpg, id=253, 1145.27875pt x 713.66624pt>
 File: Images/deployment.jpg Graphic file (type jpg)
 <use Images/deployment.jpg>
-Package pdftex.def Info: Images/deployment.jpg  used on input line 82.
+Package pdftex.def Info: Images/deployment.jpg  used on input line 81.
 (pdftex.def)             Requested size: 455.24411pt x 283.67552pt.
  [10 <./Images/deployment.jpg>]
-<Images/RunTimeViewUserAccess.png, id=252, 664.4825pt x 423.5825pt>
+<Images/RunTimeViewUserAccess.png, id=258, 664.4825pt x 423.5825pt>
 File: Images/RunTimeViewUserAccess.png Graphic file (type png)
 <use Images/RunTimeViewUserAccess.png>
 Package pdftex.def Info: Images/RunTimeViewUserAccess.png  used on input line 9
-4.
+3.
 (pdftex.def)             Requested size: 455.24411pt x 290.20396pt.
-<Images/RunTimeViewAuthorityAccess.png, id=253, 664.4825pt x 343.2825pt>
+<Images/RunTimeViewAuthorityAccess.png, id=259, 664.4825pt x 343.2825pt>
 File: Images/RunTimeViewAuthorityAccess.png Graphic file (type png)
 <use Images/RunTimeViewAuthorityAccess.png>
 Package pdftex.def Info: Images/RunTimeViewAuthorityAccess.png  used on input l
-ine 99.
+ine 98.
 (pdftex.def)             Requested size: 455.24411pt x 235.18898pt.
-<Images/RunTimeViewUserReport.png, id=254, 921.4425pt x 304.13625pt>
+<Images/RunTimeViewUserReport.png, id=260, 921.4425pt x 304.13625pt>
 File: Images/RunTimeViewUserReport.png Graphic file (type png)
 <use Images/RunTimeViewUserReport.png>
 Package pdftex.def Info: Images/RunTimeViewUserReport.png  used on input line 1
-04.
+03.
 (pdftex.def)             Requested size: 455.24411pt x 150.25786pt.
- [11 <./Images/RunTimeViewUserAccess.png> <./Images/RunTimeViewAuthorityAccess.
-png>]
-<Images/RunTimeViewAuthorityCheck.png, id=261, 935.495pt x 545.03625pt>
+
+[11 <./Images/RunTimeViewUserAccess.png> <./Images/RunTimeViewAuthorityAccess.p
+ng>]
+<Images/RunTimeViewAuthorityCheck.png, id=267, 935.495pt x 545.03625pt>
 File: Images/RunTimeViewAuthorityCheck.png Graphic file (type png)
 <use Images/RunTimeViewAuthorityCheck.png>
 Package pdftex.def Info: Images/RunTimeViewAuthorityCheck.png  used on input li
-ne 109.
+ne 108.
 (pdftex.def)             Requested size: 455.24411pt x 265.23213pt.
-<Images/RunTimeViewListViolation.png, id=262, 956.57375pt x 469.755pt>
+<Images/RunTimeViewListViolation.png, id=268, 956.57375pt x 469.755pt>
 File: Images/RunTimeViewListViolation.png Graphic file (type png)
 <use Images/RunTimeViewListViolation.png>
 Package pdftex.def Info: Images/RunTimeViewListViolation.png  used on input lin
-e 114.
+e 113.
 (pdftex.def)             Requested size: 455.24411pt x 223.55885pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./Images/RunTimeViewUserReport.png> <./Images/RunTimeViewAuthorityCheck.p
 ng>]
-[13 <./Images/RunTimeViewListViolation.png>]) [14] (./Files/user_interface.tex)
-[15
+[13 <./Images/RunTimeViewListViolation.png>] [14]) [15]
+(./Files/user_interface.tex
+<Images/citizen_ux.jpg, id=290, 713.66624pt x 1090.0725pt>
+File: Images/citizen_ux.jpg Graphic file (type jpg)
+<use Images/citizen_ux.jpg>
+Package pdftex.def Info: Images/citizen_ux.jpg  used on input line 7.
+(pdftex.def)             Requested size: 356.83224pt x 545.03491pt.
+ [16
 
-] (./Files/requirements_traceability.tex) [16
+ <./Images/citizen_ux.jpg>]
+<Images/authority_ux.jpg, id=295, 742.775pt x 824.07875pt>
+File: Images/authority_ux.jpg Graphic file (type jpg)
+<use Images/authority_ux.jpg>
+Package pdftex.def Info: Images/authority_ux.jpg  used on input line 15.
+(pdftex.def)             Requested size: 371.38658pt x 412.03836pt.
+) [17 <./Images/authority_ux.jpg>] (./Files/requirements_traceability.tex)
+Overfull \hbox (2.09798pt too wide) in paragraph at lines 1--71
+[][]
+ []
 
-]
-(./Files/implementation_integration_testplan.tex) [17
 
-] (./Files/effort.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--71
+
+ []
+
 [18
+
+] (./Files/implementation_integration_testplan.tex) [19
+
+] (./Files/effort.tex) [20
 
 ] (./main.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
- [19
+ [21
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
@@ -728,7 +749,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2A78CE43471ECAC11A91A059FF7BA058;2292.
+(rerunfilecheck)             Checksum: 03E4CCFD6693441252681CB82CE91594;2292.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -736,10 +757,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 11272 strings out of 494510
- 165697 string characters out of 6176235
- 276335 words of memory out of 5000000
- 14665 multiletter control sequences out of 15000+600000
+ 11291 strings out of 494510
+ 166068 string characters out of 6176235
+ 276478 words of memory out of 5000000
+ 14677 multiletter control sequences out of 15000+600000
  55268 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,20n,43p,424b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -748,10 +769,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (19 pages, 593968 bytes).
+Output written on main.pdf (21 pages, 711045 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
