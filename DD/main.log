@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.16)  2 DEC 2019 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.16)  3 DEC 2019 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,12 +709,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [12 <./Images/RunTimeViewUserReport.png> <./Images/RunTimeViewAuthorityCheck.p
 ng>]
 [13 <./Images/RunTimeViewListViolation.png>]
-<Images/ComponentInterfaces.png, id=281, 804.00375pt x 1014.79124pt>
+<Images/ComponentInterfaces.png, id=281, 1206.5075pt x 1522.68875pt>
 File: Images/ComponentInterfaces.png Graphic file (type png)
 <use Images/ComponentInterfaces.png>
 Package pdftex.def Info: Images/ComponentInterfaces.png  used on input line 120
 .
-(pdftex.def)             Requested size: 455.24411pt x 574.59688pt.
+(pdftex.def)             Requested size: 455.24411pt x 574.53851pt.
  [14 <./Images/ComponentInterfaces.png>]) [15] (./Files/user_interface.tex
 <Images/citizen_ux.jpg, id=292, 713.66624pt x 1090.0725pt>
 File: Images/citizen_ux.jpg Graphic file (type jpg)
@@ -733,13 +733,40 @@ Package pdftex.def Info: Images/authority_ux.jpg  used on input line 15.
 [17 <./Images/authority_ux.jpg>] (./Files/requirements_traceability.tex)
 [18
 
-] (./Files/implementation_integration_testplan.tex) [19
+] (./Files/implementation_integration_testplan.tex
+<Images/ComponentView0.png, id=306, 1108.14pt x 591.71063pt>
+File: Images/ComponentView0.png Graphic file (type png)
+<use Images/ComponentView0.png>
+Package pdftex.def Info: Images/ComponentView0.png  used on input line 2.
+(pdftex.def)             Requested size: 455.24411pt x 243.08145pt.
+<Images/ComponentView1.png, id=307, 1112.65688pt x 596.2275pt>
+File: Images/ComponentView1.png Graphic file (type png)
+<use Images/ComponentView1.png>
+Package pdftex.def Info: Images/ComponentView1.png  used on input line 6.
+(pdftex.def)             Requested size: 455.24411pt x 243.94539pt.
+<Images/ComponentView2.png, id=308, 1115.66812pt x 596.2275pt>
+File: Images/ComponentView2.png Graphic file (type png)
+<use Images/ComponentView2.png>
+Package pdftex.def Info: Images/ComponentView2.png  used on input line 10.
+(pdftex.def)             Requested size: 455.24411pt x 243.28125pt.
+<Images/ComponentView3.png, id=309, 1113.40968pt x 592.46344pt>
+File: Images/ComponentView3.png Graphic file (type png)
+<use Images/ComponentView3.png>
+Package pdftex.def Info: Images/ComponentView3.png  used on input line 14.
+(pdftex.def)             Requested size: 455.24411pt x 242.2426pt.
 
-] (./Files/effort.tex) [20
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+ <./Images/ComponentView0.png (PNG copy)> <./Images/ComponentView1.png (PNG cop
+y)>])
+[20 <./Images/ComponentView2.png (PNG copy)> <./Images/ComponentView3.png (PNG 
+copy)>] (./Files/effort.tex) [21
 
 ] (./main.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
- [21
+ [22
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
@@ -755,10 +782,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 11296 strings out of 494510
- 166230 string characters out of 6176235
+ 11325 strings out of 494510
+ 166933 string characters out of 6176235
  276478 words of memory out of 5000000
- 14681 multiletter control sequences out of 15000+600000
+ 14701 multiletter control sequences out of 15000+600000
  55268 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,20n,43p,424b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -767,10 +794,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (21 pages, 766680 bytes).
+Output written on main.pdf (22 pages, 1056493 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 

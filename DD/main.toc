@@ -30,5 +30,5 @@
 \contentsline {section}{\numberline {3}User Interface Design}{16}{section.3}% 
 \contentsline {section}{\numberline {4}Requirements Traceability}{18}{section.4}% 
 \contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{19}{section.5}% 
-\contentsline {section}{\numberline {6}Effort Spent}{20}{section.6}% 
-\contentsline {section}{References}{21}{section.6}% 
+\contentsline {section}{\numberline {6}Effort Spent}{21}{section.6}% 
+\contentsline {section}{References}{22}{section.6}% 
