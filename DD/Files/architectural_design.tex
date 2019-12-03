@@ -158,14 +158,14 @@ Data is spread among three different DBs as different types of data requires dif
 
 \begin{itemize}
 
-    \item  Report Server: The data saved on this server is not important as reports are very dependent on time. The images and information
+    \item  Report Databse: The data saved on this DB is not important as reports are very dependent on time. The images and information
         stored are not legally binding (only authorities can administer fines), thus it must be able to handle large quantities of data and 
         be operative in a short span of time but data loss can be sustained.
 
-    \item Violation Server: The data stored here is composed of light elements (only text) which do not require particular encryption thus the server 
+    \item Violation Database: The data stored here is composed of light elements (only text) which do not require particular encryption thus the server 
         is able to sustain a great deal of ACID operations but requires data duplication.
 
-    \item Credentials Server: This server contains information for the Authentication of the authorities so, not only does it require data duplication
+    \item Credentials Database: This DB contains information for the Authentication of the authorities so, not only does it require data duplication
         to be quickly operative also in case of failure, but encryption is also crucial to this device. Data is stored following good pratices of 
         security (e.g. only the salted hashes of the password are saved).     
 
