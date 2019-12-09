@@ -35,7 +35,7 @@
                 \item Report Manager: Establishes an exchange 
                 of messages with the Server and sends data 
                 regarding the alleged violation, to be 
-                later examined.
+                later examined;
                 
                 \item Request Manager: Retrieves the list of 
                 violations or accidents using the Server.
@@ -48,7 +48,7 @@
 
                 \item Report Manager: Retrieves a report and 
                 orders to approve it or to discard it, 
-                based on the information stored.
+                based on the information stored;
                 
                 \item Request Manager: Retrieves the list 
                 of violations or accidents using the Server.
@@ -62,17 +62,17 @@
         
         \begin{itemize}
             \item Check Manager: Requests and receives the OTP 
-            by OTPGenerator to withstand the login of the user.
+            by OTPGenerator to withstand the login of the user;
             
             \item Report Dispatcher: Receives the information 
             about the reports filed by users and pushes them 
             to the Report Server if the report is correctly 
-            fulfilled, aborting the incorrect ones.
+            fulfilled, aborting the incorrect ones;
 
             \item Authentication Manager: Exchanges information 
             with the Database containing the credentials of the 
             authority that wants to login and ultimates the 
-            login process.
+            login process;
             
             \item Info Dispatcher: Communicates with both the 
             types of users to retrieve information about 
@@ -80,7 +80,7 @@
             the Municipality API). \textit{Note: different 
             kinds of users receive different quantities of 
             information, for example, users do no obtain 
-            the license plates of the offenders.}
+            the license plates of the offenders;}
 
             \item Report Checker: Sends information about the 
             open reports to AuthorityFrontend/ReportManager, 
@@ -180,8 +180,8 @@ and allows parallel development.
 \texttt{The division:}
 
 \begin{itemize}
-    \item \textbf{View:} Clients.
-    \item \textbf{Controller:} Application.
+    \item \textbf{View:} Clients;
+    \item \textbf{Controller:} Application;
     \item \textbf{Model:} DBs.
     
     
@@ -213,14 +213,14 @@ of security and replication:
     legally binding (only authorities can administer 
     fines), thus it must be able to handle large 
     quantities of data and be operative in a short 
-    span of time but data loss can be sustained.
+    span of time but data loss can be sustained;
 
     \item Violation Database: The data stored here 
     is composed of light elements (only text) 
     which do not require particular encryption 
     thus the server is able to sustain a great 
     deal of ACID operations but requires data 
-    duplication.
+    duplication;
 
     \item Credentials Database: This DB contains 
     information for the Authentication of the 
